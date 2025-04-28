@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+  <title>PLASTIC MEMORIES VIỆT HÓA</title>
+  <meta name="description" content="Dự án Việt hóa Plastic Memories!">
+  <meta name="keywords" content="Plastic Memories,Plamemo,Naotaka Hayashi,okiura,Kadokawa,ANIPLEX,2015,original,anime,Việt hóa,viet hoa,plastic memories viet hoa, Plastic Memories Game Việt hóa, Visual Novel Việt hóa, Plastic Memories Visual Novel Việt hóa">
+  <meta name="author" content="Aniplex Inc.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@PlasticMemoUSA">
+  <meta name="twitter:url" content="https://plamemovh.vercel.app/">
+  <meta name="twitter:title" content="PLASTIC MEMORIES VIỆT HÓA">
+  <meta name="twitter:description" content="Dự án Việt hóa Plastic Memories! Cập nhật thông tin về dự án tại đây.">
+  <meta name="twitter:image" content="http://www.plasticmemoriesusa.com/share.jpg">
+  <meta property="og:title" content="PLASTIC MEMORIES VIỆT HÓA">
+  <meta property="og:description" content="Dự án Việt hóa Plastic Memories! Cập nhật thông tin về dự án tại đây.">
+  <meta property="og:url" content="https://plamemovh.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://www.plasticmemoriesusa.com/share.jpg">
+  <meta property="og:site_name" content="PLASTIC MEMORIES VIỆT HÓA">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://plasticmemoriesusa.com/favicon.ico">
+
+<link rel="shortcut icon" href="https://plasticmemoriesusa.com/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" href="https://plasticmemoriesusa.com/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./PLASTIC MEMORIES Website_files/reflesh.css">
+<link rel="stylesheet" href="./PLASTIC MEMORIES Website_files/swipeshow.css">
+<link rel="stylesheet" href="./PLASTIC MEMORIES Website_files/util.FloatPlayer.css">
+<link rel="stylesheet" href="./PLASTIC MEMORIES Website_files/common.css">
+<link rel="stylesheet" href="./PLASTIC MEMORIES Website_files/rotate.css">
+<link rel="stylesheet" href="./PLASTIC MEMORIES Website_files/top.css">
+
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/jquery.min.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/velocity.min.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/html5shiv.min.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/jquery.tiles.min.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/swipeshow.min.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/util.FloatPlayer.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/electnic_substrate.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/cookie.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/in_common.js"></script>
+<script type="text/javascript" src="./PLASTIC MEMORIES Website_files/top.js"></script>
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+    if(confirm('Trang web này hiển thị tốt nhất trên PC.')) {
+    }
+}
+</script>
+</head>
+
+<style>
+footer {
+  text-align: center;
+  height: 20px;
+  padding: 20px;
+  background-color: gray;
+  color: white;
+}
+video {
+   border: 0px solid #aaa;
+   object-fit: initial;
+   position: absolute;
+   transform:translateX(100%);
+   z-index: 9999;
+}
+::cue {
+   font-size: 12px;
+}
+</style>
+
+<body>
+<video id="video1" autoplay onended="playSecondVideo()" preload="auto" width="500" height="100">
+   <source type="audio/mp3" src="audio/pm_bgm049.flac">
+   <track label="Tiếng Việt" kind="subtitles" srclang="vi" src="audio/subtitles/bgm049_subtitle_vi.vtt" default="">
+</video>
+<video id="video2" loop preload="auto" width="500" height="100">
+   <source type="audio/mp3" src="audio/pm_bgm049_seamlessLoop.flac">
+   <track label="Tiếng Việt" kind="subtitles" srclang="vi" src="audio/subtitles/bgm049_loop_subtitle_vi.vtt" default="">
+</video>
+<audio id="audio1" src="audio/pm_bgm049.flac" onended="playSecondAudio()" preload="auto">
+</audio>
+
+<audio id="audio2" src="audio/pm_bgm049_seamlessLoop.flac" loop preload="auto">
+</audio>
+<!--<iframe width="0" height="0" src="https://www.youtube.com/embed/yH-34lG_M3Q?autoplay=1&playlist=XbU6_lRtOdE,c5Tncalskkc,DmJVY0fwOcQ,CtJDjgj39kc&shuffle=1&loop=1&controls=0&showinfo=0&autohide=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; end; encrypted-media; gyroscope; loop; picture-in-picture; playlist; start; shuffle" allowfullscreen></iframe>-->
+<div class="loader">
+	<p class="logo_load"><img src="./PLASTIC MEMORIES Website_files/logo_load.png" width="300" height="135" alt="ĐANG TẢI"></p>
+</div>
+<div id="AllWrap" class="cf">
+<div id="nav_wrap">
+<nav class="cf"
+		<h1><a href="https://plamemovh.vercel.app/" class="bright"><img src="./PLASTIC MEMORIES Website_files/logo.png" alt="Plastic Memories Việt hóa" height="97" width="203"></a></h1>
+		<ul class="nav__menu">
+			<li class="nav__intro active"><p class="nav_circle"></p><p class="nav_circle_in">&nbsp;</p><a href="https://plamemovh.vercel.app/"><img src="./PLASTIC MEMORIES Website_files/intro_off.png" alt="" height="25" width="122" class="nav_off"><img src="./PLASTIC MEMORIES Website_files/intro_on.png" alt="trang chur" height="25" width="122" class="nav_on"></a></li>
+			<li class="nav__package new"><p class="nav_circle"></p><p class="nav_circle_in">&nbsp;</p><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/downloads/"><img src="./PLASTIC MEMORIES Website_files/package_off.png" alt="" height="25" width="122" class="nav_off"><img src="./PLASTIC MEMORIES Website_files/package_on.png" alt="tair veef" height="25" width="122" class="nav_on"></a></li>  			
+			<!--<li class="nav__movie"><p class="nav_circle"></p><p class="nav_circle_in">&nbsp;</p><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/trailers"><img src="./PLASTIC MEMORIES Website_files/movie_off.png" alt="" height="12" width="56" class="nav_off"><img src="./PLASTIC MEMORIES Website_files/movie_on.png" alt="MOVIE" height="12" width="56" class="nav_on"></a></li>
+			<!--li class="nav__books"><a href="/books/"><img src="/assets/img/common/menu_area/menu/books_off.png" alt="" height="12" width="56" class="nav_off"><img src="/assets/img/common/menu_area/menu/books_on.png" alt="BOOKS" height="12" width="56" class="nav_on"></a></li-->
+		</ul>
+<!--
+		<p class="nav__sns__caption"><img src="/assets/img/common/menu_area/cap_share.png" height="7" width="32"></p>
+		<ul class="nav__sns cf">
+			<li class="twitter cf">
+				<div class="social-icon easing_s"><a href="http://twitter.com/share?url=http://www.plasticmemoriesusa.com/&text=PLASTIC MEMORIES USA Official Website" target="_blank"><img src="/assets/img/common/menu_area/icon_tw.png" height="20" width="20" alt=""></a></div>
+				<div class="frame-left"></div>
+				<div class="frame-middle">
+					<a href="http://twitter.com/search?q=http%3A%2F%2Fwww.plasticmemoriesusa.com%2F" target="_blank"><p></p></a>
+				</div>
+				<div class="frame-right"></div>
+			</li>
+			<li class="facebook cf">
+				<div class="social-icon easing_s"><a href="https://www.facebook.com/sharer.php?u=http://www.plasticmemoriesusa.com/" target="_blank"><img src="/assets/img/common/menu_area/icon_fb.png" height="20" width="20" alt=""></a></div>
+				<div class="frame-left"></div>
+				<div class="frame-middle">
+					<p></p>
+				</div>
+				<div class="frame-right"></div>
+			</li>
+		</ul>
+-->
+		<p class="nav__link__caption"><img src="./PLASTIC MEMORIES Website_files/cap_link.png" height="7" width="22"></p>
+		<div class="nav__anx__link">
+			<ul class="cf">
+				<li><a href="http://www.plastic-memories.jp/" target="_blank">日本語</a></li>
+				<li><a href="https://plasticmemoriesusa.com/" target="_blank">ENGLISH</a></li>
+			</ul>
+		<p class="nav__link__caption"><img src="./PLASTIC MEMORIES Website_files/cap_link.png" height="7" width="22"></p>
+		<div class="nav__anx__forum">
+			<ul class="cf">
+				<li><a href="https://gametiengviet.com/threads/7055/" target="_blank">Game Tiếng Việt</a><br>
+				<a href="https://viethoagame.com/threads/471/" target="_blank">Việt Hóa Game</a></li>
+			</ul>
+			<p class="copy">Bản quyền thuộc về MAGES./Project PM<br>Bản mod Việt hóa là một dự án cộng<br>đồng, không hề có bất cứ mối liên hệ<br>nào tới nhà phát triển.</p>
+			<p class="copy">©MAGES./Project PM<br>This Vietnamese translation mod is<br>community-made and it is not<br>affiliated with MAGES.<br><a class="sharelink" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fplamemovh.vercel.app%2F"><img src="./PLASTIC MEMORIES Website_files/fb_like.png" alt="Chia sẻ lên Facebook"></a></p>
+		</div>
+	</nav>
+	<div class="nav__circle">
+		<p class="groove1"><img src="./PLASTIC MEMORIES Website_files/circle_01.png" height="750" width="750" alt=""></p>
+		<p class="groove2"><img src="./PLASTIC MEMORIES Website_files/circle_02.png" height="750" width="750" alt=""></p>
+		<p class="groove1"><img src="./PLASTIC MEMORIES Website_files/circle_03.png" height="750" width="750" alt=""></p>
+		<p class="groove2"><img src="./PLASTIC MEMORIES Website_files/circle_04.png" height="750" width="750" alt=""></p>
+		<p class="groove1"><img src="./PLASTIC MEMORIES Website_files/circle_05.png" height="750" width="750" alt=""></p>
+	</div>
+</div>
+<div id="cynapse">
+</div>
+	<section id="top" class="contents">
+		<p class="KV"><img src="./PLASTIC MEMORIES Website_files/pm03.jpg" width="100%"></p>
+	</section>
+
+	<div id="right_nav">
+		<!--p><img src="assets/img/top/txt_anime.png" height="60" width="183"></p-->
+		<!--<section id="bnr">
+			<ul>
+				<li><a href="/special/preview.html"><img src="assets/img/top/bnr_preview.gif" height="45" width="184" class="thumb" alt=""></a></li>
+			</ul>
+		</section>-->
+		<!-- TODO: add now playing animation below this damn title, just like the visual novel -->
+		<p>♫ Asayake no Starmine</p>
+		<dt><button onclick="togglePlayPause()" style=" border: none; cursor: pointer; appearance: none; background-color: inherit; text-align: left;">
+		<!-- kinda terrible looking button yeah ik, i will change it later -->
+		<img width="80%" height="80%" src="./PLASTIC MEMORIES Website_files/btn_music.png" alt="Phát/Dừng Nhạc" border="0" /></button></dt>
+		<h2><img src="./PLASTIC MEMORIES Website_files/cap_news.png" height="14" width="58"></h2>
+		<section class="news fixPng">
+			<article>
+																				<dl class="cf">
+					<dt>20/11/2023</dt>
+					<dd><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/news6" title="Hợp tác với Hoshi Visual Novel">Hợp tác với Hoshi Visual Novel</a></dd>
+					<dt>9/5/2023</dt>
+					<dd><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/news5" title="Tuyển người dịch">Tuyển người dịch</a></dd>
+					<dt>8/3/2023</dt>
+					<dd><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/news4" title="Server Discord của dự án PlaMemo Việt hóa">Server Discord của dự án PlaMemo Việt hóa</a></dd>
+<!--					<dt>4/2/2023</dt>
+					<dd><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/news3" title="Demo Việt hóa cho Plastic Memories đã ra mắt!!">Demo Việt hóa cho Plastic Memories đã ra mắt!!</a></dd>-->
+					<dt>15/1/2023</dt>
+					<dd><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/news2" title="Opening đã được Việt sub cho Plastic Memories!!">Opening đã được Việt sub cho Plastic Memories!!</a></dd>
+					<dt>7/12/2022</dt>
+					<dd><a href="https://kecox42069.github.io/kecoxviethoa/plamemovh/news1" title="Dự án Việt hóa Plastic Memories đã được bắt đầu!!">Dự án Việt hóa Plastic Memories đã được bắt đầu!!</a></dd>
+				</dl>
+								<dl class="cf">
+							</article>
+		</section>
+<!--
+		<h2><img src="assets/img/top/cap_tw.png" height="7" width="91"></h2>
+		<section id="twitter">
+			<ul id="tw-update-list" class="topicsList slides cf">
+			<script type="text/javascript" src="/assets/js/blogger.js"></script>
+			<script type="text/javascript" src="/timeline.html?callback=twitterCallback2&count=10"></script>
+			</ul>
+			<p id="swipePrev"><img src="/assets/img/common/arrow_left.png" height="16" width="14" alt="PREV"></p>
+			<p id="swipeNext"><img src="/assets/img/common/arrow_right.png" height="16" width="14" alt="NEXT"></p>
+		</section>
+-->
+		<h2><img src="./PLASTIC MEMORIES Website_files/cap_movie.png" height="7" width="32"></h2>
+		<section class="movie" onclick="new Youtube(&#39;ciu4TY26Lhc&#39;);ytpauseaudio()">
+			<div class="liner"></div>
+			<img src="./PLASTIC MEMORIES Website_files/mq1.jpg" height="104" width="184" class="thumb" alt="">
+			<img src="./PLASTIC MEMORIES Website_files/movie_on(1).png" height="104" width="184" class="movie_on" alt="">
+            <div class="liner">OP VIỆT SUB</div>
+		</section>
+		<br>
+	</div>
+</div>
+
+</div>
+<div id="floatPlayer"><p id="floatBg">&nbsp;</p></div>
+<p id="YoutubeBg" class="" style="transform: scale(0);">&nbsp;</p>
+<script>
+<!--GoogleAnalytics Start-->
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60972715-1', 'auto');
+  ga('send', 'pageview');
+<!--GoogleAnalytics End-->
+<!-- audio tag -->
+var audio1 = document.getElementById('audio1');
+var audio2 = document.getElementById('audio2');
+var playingAudio2 = false; // Flag de track xem audio nao dang chay
+
+audio2.oncanplaythrough = function() {
+    audio1.onended = function() {
+        audio2.play();
+        playingAudio2 = true; // chinh flag thanh true khi audio2 chay
+    }
+}
+
+function ytpauseaudio() {
+    if (playingAudio2) {
+        if (audio2.paused) {
+        } else {
+            audio2.pause();
+        }
+    } else {
+        if (audio1.paused) {
+        } else {
+            audio1.pause();
+        }
+    }
+}
+
+function togglePlayPause() {
+    if (playingAudio2) {
+        // neu file audio 2 dang chay, nut bam se chi co tac dung voi audio 2
+        if (audio2.paused) {
+            audio2.play();
+        } else {
+            audio2.pause();
+        }
+    } else {
+        // neu file audio 1 dang chay, nut bam se chi co tac dung voi audio 1
+        if (audio1.paused) {
+            audio1.play();
+        } else {
+            audio1.pause();
+        }
+    }
+}
+<!-- audio tag end -->
+<!-- video tag -->
+var audio1 = document.getElementById('video1');
+var audio2 = document.getElementById('video2');
+var playingAudio2 = false; // Flag de track xem audio nao dang chay
+
+audio2.oncanplaythrough = function() {
+    audio1.onended = function() {
+        audio2.play();
+        playingAudio2 = true; // chinh flag thanh true khi audio2 chay
+    }
+}
+
+function togglePlayPause() {
+    if (playingAudio2) {
+        // neu file audio 2 dang chay, nut bam se chi co tac dung voi audio 2
+        if (audio2.paused) {
+            audio2.play();
+        } else {
+            audio2.pause();
+        }
+    } else {
+        // neu file audio 1 dang chay, nut bam se chi co tac dung voi audio 1
+        if (audio1.paused) {
+            audio1.play();
+        } else {
+            audio1.pause();
+        }
+    }
+}
+<!-- video tag end -->
+</script>
+</body>
+</html>

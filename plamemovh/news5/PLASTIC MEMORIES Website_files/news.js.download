@@ -1,0 +1,10 @@
+// JavaScript Document
+$(document).ready(function(){
+	$(".nav__news").addClass("active");
+	$('.nav__news a').attr('href','javascript:void(0)');
+
+	$(".news__list-item").each(function(){
+		var _thumb = $(this).find(".news__detail img").attr("src");
+		$(this).find(".news__image img").attr("src",_thumb);
+	});
+});

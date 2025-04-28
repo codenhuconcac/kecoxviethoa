@@ -1,0 +1,903 @@
+/* Otto Gallery v1.0 */
+/*
+The MIT License (MIT)
+
+Copyright (c) 2013
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*Base Styling*/
+
+.gallerycontent {
+    margin: 0 auto
+}
+
+.fixedwidth960 {
+    width: 960px;
+    height: 540px
+}
+
+.fixedwidthimg960 {
+    width: 960px;
+    max-height: 540px;
+    height: auto;
+    position: absolute
+}
+
+.responsivemaxwidthimg {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:1400px) {
+    .hidevideoimage,
+    .hidevideoimage img {
+        visibility: hidden
+    }
+
+    .responsivemaxwidth {
+        width: 72%
+    }
+
+    .contentprevarrow {
+        right: 45%
+    }
+
+    .contentnextarrow {
+        left: 45%
+    }
+
+    .thumbnailarea {
+        max-width: 1920px;
+        min-width: 1257px;
+        max-height: 1080px;
+        margin: -12px auto 0;
+        padding: 1px 0 0;
+        background-color: transparent !important
+    }
+
+    .captions {
+        margin-top: 48px;
+    }
+
+    .gallerythumbnails {
+        display: block;
+        padding-top: 8px;
+        margin: 38px auto 10px;
+    }
+
+    .thumbnailsvisible {
+        overflow: hidden;
+        width: 975px;
+        margin: 0 auto;
+        padding: 5px 0
+    }
+
+    .thumb,
+    .thumb img {
+        width: 160px
+    }
+
+    .thumb {
+        position: relative;
+        height: 90px;
+        display: inline-block;
+        padding: 0 8px;
+        overflow: hidden
+    }
+
+        .thumb:hover {
+            cursor: pointer
+        }
+
+    .thumbnailcontrolsfixed {
+        position: relative;
+        bottom: 50%;
+        height: 0
+    }
+
+    .thumbnailsprevarrow {
+        right: 58%
+    }
+
+    .thumbnailsnextarrow {
+        left: 58%
+    }
+
+    .gallerythumbdots {
+        display: none !important
+    }
+
+    .thumbbarareadesktop {
+        display: block;
+        margin-top: -16px;
+        margin-bottom: 24px
+    }
+
+    .thumbbarareatablet,
+    .watchafterplaybuttoncontainer {
+        display: none
+    }
+
+    .ottoagegate {
+        background-color: #000;
+        padding: 40px 30px;
+        top: 29%;
+        left: 26%;
+        width: 48%
+    }
+
+    .lightboxcontent .ottoagegate {
+        margin-top: 20%
+    }
+
+    .ottoagegate label {
+        padding: 0 5px
+    }
+
+    .ottoagegate h2 {
+        padding-bottom: 25px;
+        font-size: 24px
+    }
+
+    .agegatesubmit {
+        margin: 28px 0 0
+    }
+
+    .hidevideoimage {
+        background-color: #383838
+    }
+
+    .html5playoncehidden {
+        display: block !important
+    }
+
+    .wirewaxplaybuttoncontainer {
+        height: 0
+    }
+
+    .swiperlayerbottom,
+    .swiperlayerleft,
+    .swiperlayerright,
+    .swiperlayertop {
+        display: none
+    }
+}
+/* slick slider gallery fixes */
+.OttoGallery ul {
+    padding-left: 0;
+}
+
+@media (min-width: 1220px) and (max-width: 1479px) {
+    .captions {
+        margin-top: 24px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1219px) {
+    .captions {
+        margin-top: 24px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1399px) {
+    .hidevideoimage,
+    .hidevideoimage img {
+        visibility: hidden
+    }
+
+    .responsivemaxwidth {
+        width: 80%;
+        max-width: 1280px;
+        min-width: 753px;
+        max-height: 720px;
+        padding-top: 60px
+    }
+
+    .ottoagegate {
+        background-color: #000;
+        padding: 40px 30px;
+        top: 18%;
+        left: 25%;
+        width: 50%
+    }
+
+    .lightboxcontent .ottoagegate {
+        margin-top: 20%
+    }
+
+    .ottoagegate label {
+        padding: 0 8px
+    }
+
+    .ottoagegate h2 {
+        padding-bottom: 25px;
+        font-size: 24px
+    }
+
+    .agegatesubmit {
+        margin: 28px 0 0
+    }
+
+    .hidevideoimage {
+        background-color: #383838
+    }
+
+    .html5playoncehidden {
+        display: block !important
+    }
+
+    .wirewaxplaybuttoncontainer {
+        height: 0
+    }
+
+    .swiperlayerbottom,
+    .swiperlayertop {
+        position: absolute;
+        width: 100%;
+        height: 34%
+    }
+
+    .swiperlayertop {
+        top: 8%;
+        z-index: 10
+    }
+
+    .swiperlayerbottom {
+        bottom: 8%;
+        z-index: 10
+    }
+
+    .swiperlayerleft,
+    .swiperlayerright {
+        position: absolute;
+        width: 42%;
+        height: 84%;
+        top: 8%;
+        bottom: 8%;
+        z-index: 10
+    }
+
+    .swiperlayerleft {
+        left: 0
+    }
+
+    .swiperlayerright {
+        right: 0
+    }
+}
+
+@media (max-width:768px) {
+    .ottoinlinemedia .c-flipper {
+        opacity: 1 !important;
+    }
+
+    .responsivemaxwidth {
+        width: 100%;
+        max-width: 768px;
+        max-height: 432px;
+        padding-top: 40px
+    }
+
+    .contentprevarrow {
+        right: 43%;
+        top: -10px
+    }
+
+    .contentnextarrow {
+        left: 43%;
+        top: -10px
+    }
+
+    .captions {
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+
+    .gallerythumbnails {
+        margin: 2px auto 10px;
+    }
+
+    .galleryitem iframe { /* remove to have mobile videos open in browser */
+        display: none;
+    }
+
+    .itemthumb {
+        width: 78px;
+        margin: 0 4px;
+    }
+
+    .ottoagegate {
+        background-color: rgba(0, 0, 0, .5);
+        padding: 0;
+        top: 0;
+        left: 0;
+        width: 100%
+    }
+
+    .lightboxcontent .ottoagegate {
+        margin-top: 20%
+    }
+
+    .ottoagegate label {
+        padding: 0 2px
+    }
+
+    .ottoagegate h2 {
+        padding-bottom: 16px;
+        font-size: 20px
+    }
+
+    .agegatesubmit {
+        margin: 12px 0 0
+    }
+
+    .html5prerollimage {
+        z-index: 19;
+        position: absolute;
+        width: 100% !important
+    }
+
+    .wirewaxplaybuttoncontainer {
+        position: absolute;
+        bottom: 62%;
+        left: 45%;
+        width: 10%;
+        z-index: 5;
+        max-width: 112px;
+        height: 0
+    }
+
+        .wirewaxplaybuttoncontainer img {
+            width: 100%
+        }
+
+        .wirewaxplaybuttoncontainer:hover {
+            cursor: pointer
+        }
+}
+
+.controlsfixed,
+.controlsresponsive {
+    height: 0;
+    z-index: 6;
+    pointer-events: none
+}
+
+.captions {
+    position: relative
+}
+
+.ottocaption {
+    position: relative;
+    font-family: 'Segoe UI light', Arial, Sans-Serif;
+    font-size: -webkit-calc(17.6px + 1.18vw);
+    font-size: calc(17.6px + 1.18vw) !important;
+    text-align: center;
+}
+
+
+.responsivemaxwidthvariable {
+    width: 86%
+}
+
+.agegatesubmit,
+.contentnextarrow,
+.contentprevarrow,
+.controlsfixed,
+.OttoGallery .galleryitem,
+.thumbnailslist,
+.thumbnailsnextarrow,
+.thumbnailsprevarrow {
+    position: relative
+}
+
+.OttoGallery .galleryitem {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.hidden {
+    display: none
+}
+
+.gallerycontentcontrols {
+    text-align: center
+}
+
+.controlsresponsive {
+    margin: -30% 0 0;
+    padding-bottom: 30%
+}
+
+.controlsfixed {
+    bottom: 50%
+}
+
+.contentnextarrow,
+.contentprevarrow {
+    z-index: 6;
+    pointer-events: auto !important
+}
+
+    .contentprevarrow img {
+        padding: 0 20px;
+        margin-right: -20px
+    }
+
+    .contentnextarrow img {
+        padding: 0 20px;
+        margin-left: -20px
+    }
+
+.html5player,
+.ytplayer {
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+    .html5player video {
+        width: 100%;
+        height: 100%;
+    }
+
+.videoplaybuttoncontainer {
+    position: absolute;
+    bottom: 42%;
+    left: 45%;
+    width: 10%;
+    z-index: 5;
+    max-width: 112px
+}
+
+    .videoplaybuttoncontainer img {
+        width: 100%
+    }
+
+    .videoplaybuttoncontainer:hover {
+        cursor: pointer
+    }
+
+.thumbplayimagecontainer {
+    position: absolute;
+    bottom: 22%;
+    left: 35.5%;
+    width: 30%
+}
+
+.thumbplayimage {
+    width: 100% !important
+}
+
+.ytplayer {
+    width: 100%
+}
+
+.html5playbuttoncontainer {
+    position: absolute;
+    bottom: 42%;
+    left: 45%;
+    width: 10%;
+    z-index: 20
+}
+
+    .html5playbuttoncontainer img {
+        width: 100%;
+        max-width: 112px;
+        margin: 0 auto;
+        display: block
+    }
+
+    .html5playbuttoncontainer:hover {
+        cursor: pointer
+    }
+
+.watchafterplaybuttoncontainer {
+    position: absolute;
+    bottom: 42%;
+    left: 45%;
+    width: 10%;
+    z-index: 20
+}
+
+    .watchafterplaybuttoncontainer img {
+        width: 100%;
+        max-width: 112px;
+        margin: 0 auto;
+        display: block
+    }
+
+    .watchafterplaybuttoncontainer:hover {
+        cursor: pointer
+    }
+
+.html5player {
+    width: 100%
+}
+
+.ottoshadow {
+    filter: blur(5px) brightness(.8);
+    -webkit-filter: blur(5px) brightness(.8);
+    z-index: 10
+}
+
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
+    .ottoshadow {
+        opacity: .7;
+        z-index: 10
+    }
+}
+
+.ottoagegate {
+    border: none;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    z-index: 500002;
+    text-align: center;
+    position: absolute
+}
+
+.lightboxcontent .ottoagegate {
+    position: relative !important
+}
+
+.ottogated {
+    opacity: .8 !important;
+    pointer-events: none !important;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    z-index: 10;
+}
+
+.agegatesubmit {
+    background-color: #107c10 !important;
+    color: #FFF;
+    border: 0 !important;
+    font-family: 'segoe ui semibold';
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 1.2;
+    max-width: 96px !important;
+    min-width: 64px !important;
+    padding: 7px 0 !important;
+    text-align: center;
+    display: inline-block;
+    width: 64px
+}
+
+#page-cover,
+.lightboxcontainer {
+    background-color: #000;
+    height: 100%
+}
+
+.lightboxcontainer {
+    position: absolute;
+    width: 100%;
+    z-index: 5000001;
+    max-width: calc(160vh * .8);
+    max-height: calc(90vh * .8);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.lightboxcontent,
+.ytplayer.lightbox {
+    max-width: 1350px;
+    max-height: 760px
+}
+
+.ottoagegate .agegateday,
+.ottoagegate .agegatemonth {
+    width: 42px
+}
+
+.ottoagegate .agegateyear {
+    width: 48px
+}
+
+.ottoagegate h2 {
+    padding-top: 8px;
+    color: #fff;
+    font-family: "segoe ui light";
+    margin: 0 auto;
+    line-height: 110%;
+    font-weight: 400;
+    font-size: calc(12.6px + 1.18vw) !important
+}
+
+.ytplayer {
+    z-index: 8
+}
+
+#page-cover,
+.hideyoutube {
+    display: none
+}
+
+.lightboxcontent,
+.swipeshow {
+    padding-bottom: 56.25%;
+    width: 100%
+}
+
+.lightboxplaybutton {
+    cursor: pointer
+}
+
+.lightboxcontent {
+    margin: 0 auto;
+    /*margin-top: 0!important;*/
+    position: absolute;
+    left: 0;
+    right: 0
+}
+@media (max-width: 540px) {
+  .lightboxcontent {
+    height: 50%;
+  }
+}
+
+.lightboxcontent {
+    position: fixed !important;
+    top: 12.5%;
+    z-index: 4000;
+}
+
+.ytplayer.lightbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 500001
+}
+
+.lightboxclosebutton {
+    cursor: pointer;
+    width: 35px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5000002
+}
+
+    .lightboxclosebutton:focus {
+        outline: white 1px dashed;
+        /*border: black 1px dashed;*/
+    }
+
+.lbclose2 {
+    opacity: 0;
+    width: 1px;
+}
+
+#page-cover {
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+    top: 0;
+    left: 0
+}
+
+.lightboxshadow iframe,
+.lightboxshadow img:not(#lbclosebutton) {
+    opacity: .38;
+    pointer-events: none;
+    -webkit-filter: blur(5px);
+    filter: blur(5px)
+}
+
+.lightboxcontainer {
+    position: absolute;
+    width: 100%;
+    z-index: 5000001
+}
+
+.html5playerlightbox {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.html5playbuttoncontainerlightbox {
+    position: absolute;
+    bottom: calc(50% - 40px);
+    bottom: -webkit-calc(50% - 40px);
+    left: calc(50% - 40px);
+    left: -webkit-calc(50% - 40px);
+    z-index: 500001
+}
+
+    .html5playbuttoncontainerlightbox:hover {
+        cursor: pointer
+    }
+
+/*slide strip overrides */
+@media screen and (max-width: 767px) {.m-product-placement.f-video.inlinefilmstrip{display: none;}}
+
+.m-product-placement-item.context-video .c-action-trigger:focus {
+    border-radius: 0% !important;
+}
+
+.m-product-placement-item > a.OttoGallery:focus {
+    outline: #000 dashed 2px !important;
+    border: #fff dashed 2px;
+}
+
+a:not(.x-hidden-focus).c-action-trigger.OttoGallery:focus {
+    background: rgba(0,0,0,.6) !important;
+    border: white dashed 4px;
+}
+
+img#lbclosebutton {
+    width: 100%;
+}
+
+.ottosmallscreen {
+    margin-top: -2% !important;
+}
+
+.c-dialog.f-lightbox [role='dialog'] {
+    max-width: 1350px !important;
+}
+/* inline player */
+.ottoinlinemedia {
+    max-width: 1229px;
+    max-height: 630px;
+    margin: 0 auto;
+}
+
+.ottoinlinemedia.m-hero {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.ottoinlinemedia .m-hero-item:before {
+    padding-bottom: 56% !important;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .ottoinlinemedia .m-hero-item:before, .c-hero:before {
+        padding-bottom: 62.4% !important;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .ottoinlinemedia .m-hero-item:before, .c-hero:before {
+        padding-bottom: 56.956% !important;
+    }
+}
+
+.ottoinlinemedia .c-group {
+    display: none !important;
+}
+
+.ottoinlinemedia .c-flipper {
+    display: block !important;
+}
+
+.ottoinlinemedia .m-ambient-video iframe {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    border: none;
+}
+
+.inlinefilmstrip a .c-image img {
+    position: relative;
+    left: -1px;
+}
+
+.m-product-placement-item > a.inlinefsActive:active, .m-product-placement-item > a.inlinefsActive:focus, .m-product-placement-item > a.inlinefsActive {
+    outline: 1px solid #9bf00b !important;
+    outline-offset: -2px !important;
+}
+
+.ottoinlinemedia.m-hero .theme-dark .m-hero-item, .ottoinlinemedia.m-hero .theme-black .m-hero-item {
+    background-color: black;
+}
+
+.ottoinlinemedia .c-carousel ul li video {
+    width: 100% !important;
+    bottom: 0;
+    top: auto;
+    z-index: 5;
+}
+
+.ottoinlinemedia .c-carousel ul li .m-ambient-video {
+    width: 100%;
+    margin: 0 auto;
+}
+.ottoinlinemedia .m-hero-item {
+    background: black;
+}
+.ottoinlinemedia .c-flipper:focus {
+    outline: 4px dashed green;
+    border: 2px dashed white !important;
+    opacity: 1 !important;
+}
+@media only screen and (min-width:1921px) {
+    .m-hero.ottoinlinemedia {
+        max-width: 1229px;
+    }
+}
+/* end inline player */
+
+.lightboxclosebutton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    color: #9bf00b;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 0;
+}
+.lightboxclosebutton:before {
+    color: #9bf00b;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 36px;
+    position: relative;
+    bottom: 8px;
+}
+.ottoinlinemedia section.m-hero-item {
+  padding: 0 .65%;
+}
+.inlinefilmstrip {
+    margin-top: 68px;
+}
+a.inlinelink:focus {
+    outline-offset: -3px;
+}
+.c-carousel .c-group section a.inlinelink.inlinefsActive:focus {
+  outline: 4px dashed #9bf00b !important;
+  outline-offset: -2px !important;
+}
+@media (max-width: 649px) {
+  iframe.wirewaxplayer {
+    transform: scale(.5);
+    height: 200%;
+    width: 200%;
+    left: -50%;
+    top: -50%;
+    position: absolute;
+  }
+}
+.ottoinlinemedia ul li section .damVideo:focus {
+  border: 2px green dashed !important;
+  outline: 2px white dashed !important;
+  outline-offset: -4px !important;
+}
+
+.m-product-placement.f-video a:focus, div.stealth-sub-carousel.center-carousel a:focus {
+    outline: #0F760F dashed 4px !important;
+}
+.lightboxclosebutton.lbclose1 {
+  z-index: 5000003;
+}
