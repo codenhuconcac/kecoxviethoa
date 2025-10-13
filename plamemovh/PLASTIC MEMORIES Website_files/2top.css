@@ -1,0 +1,134 @@
+.loader{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background:#FFF;
+	z-index: 99999;
+}
+.logo_load{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-76px 0 0 -150px;
+	display:none;
+}
+#right_nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 192px;
+    padding: 25px 20px;
+    border-left: 1px solid #ccc;
+    margin: 37px 0 0;
+    font-size: 13px;
+    z-index: 200;
+    background: rgba(255,255,255,0.3);
+}
+#right_nav h2{
+	margin: 25px 0 0px 0;
+}
+a{
+	color:#23d1de;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+#right_nav h2:before{
+  display: block;
+  content: '';
+  border-top: 1px solid #ccc;
+  width: 5px;
+  position: absolute;
+  left: 0;
+}
+/****************************************
+News Area
+****************************************/
+.news{
+	font-size: 12px;
+	width: 192px;
+	overflow: hidden;
+}
+.news article dl{
+    margin: 0 0 5px;
+}
+.news article dl dt{
+    float: left;
+}
+.news article dl dd{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 192px;
+}
+/****************************************
+Twitter Area
+****************************************/
+#twitter{
+	z-index: 100;
+	width: 192px;
+	height: 140px;
+	position: relative;
+	padding: 25px 0 0;
+	overflow: hidden;
+	margin-top: -20px;
+}
+#twitter .link{
+    margin: 20px 27px 12px;
+}
+#twitter #tw-update-list{
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #000;
+    height: 150px;
+    padding: 0 0 30px;
+    position: relative;
+    z-index: 100;
+}
+#twitter #tw-update-list li{
+	float:left;
+	width: 192px !important;
+	padding: 0;
+	z-index: 100;
+	word-break: break-all;
+}
+#swipePrev{
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+#swipeNext{
+    position: absolute;
+    top: 0;
+    left: 180px;	
+}
+/****************************************
+Movie Area
+****************************************/
+.movie{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.movie {
+}
+.movie .movie_on{
+	position:absolute;
+	z-index:100;
+	left:0;
+	top:0;	
+}
+#bnr{
+margin: 10px 0 0;
+padding: 20px 0 0px;
+}
+#bnr:before{
+  display: block;
+  content: '';
+  border-top: 1px solid #ccc;
+  width: 5px;
+  position: absolute;
+  left: 0;
+  top: 98px;
+}

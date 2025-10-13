@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script type="text/javascript">
+  "use strict";
+  const allowedOrigins = [
+    "https://www.xbox.com",
+    "https://greenland.dev.xbox.com:3000",
+    "https://origin-test.xbox.com",
+    "https://origin-int.xbox.com",
+    "https://origin-ppe.xbox.com",
+    "https://origin-prod.xbox.com",
+  ];
+
+  window.addEventListener("message", event => {
+    if (allowedOrigins.includes(event.origin) && event.data?.id === "startCartMuidSync") {
+      const cartMuidCookie = document.cookie
+        .split("; ")
+        .find(row => row.startsWith("cartMuid="))
+        ?.split("=")[1];
+
+      if (cartMuidCookie) {
+        event.source?.postMessage(
+          { id: "cartMuidSyncSuccess", cartMuid: cartMuidCookie },
+          event.origin
+        );
+      } else {
+        event.source?.postMessage({ id: "cartMuidSyncFailure" }, event.origin);
+      }
+    }
+  });
+</script>
+</head><body></body></html>

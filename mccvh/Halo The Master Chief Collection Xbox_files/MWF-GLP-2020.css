@@ -1,0 +1,1902 @@
+@media screen and (min-width:1921px) {
+   #bodycolumn {width: 1920px; margin: 0 auto;}
+}
+
+/* ESRB Section */
+.esrbDescDivider {
+ margin-left:0%;
+ border:none;
+ max-width:300px;
+ height:1px;
+ background-color:#107c10;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.esrbblade .c-age-rating .c-label a {
+    text-transform: uppercase;
+}
+
+ .esrbDarkBG .esrbDescDivider {
+   background-color:#9bf00b !important;
+ }
+.esrbblade .c-age-rating .c-label {
+  padding-left:8px;
+}
+.esrbblade .c-age-rating .c-content-toggle {
+    margin-left: 90px !important;
+}
+.esrbbladeMobilePad {
+  padding-bottom:20px;
+}
+.descNoWrap {
+  white-space: nowrap;
+  display:inline;
+}
+.capitalFirst {
+  text-transform: capitalize;
+}
+.c-age-rating .c-label a {
+  text-decoration: underline !important;
+}
+
+@media only screen and (max-width:1083px) and (min-width:768px) {
+.m-additional-information [data-grid="col-6"]>[data-grid="col-6"] {
+    width: 420px !important;
+ }
+.c-age-rating .c-content-toggle .c-list {
+   padding-right:25% !important;
+  }
+}
+
+/* UHF Fixes */
+
+@media screen and (max-width: 859px) {
+.theme-dark.js-global-head.f-closed.f-transparent.global-head-cont {
+background-color: black !important;}
+
+.c-uhfh.context-uhf.f-transparent {
+    color: white !important;
+    z-index: 10 !important;}
+
+/*.m-hero-item.glp-hero.f-transparent.f-precise-click{margin-top:87px;}*/
+.f-transparent-hero .m-hero-item.glp-hero.f-transparent.f-precise-click{margin-top:0px;}
+.f-transparent-hero {padding-top: 87px;}
+}
+@media only screen and (max-width: 1083px) {
+#BodyContent div div{margin-bottom:-1px;}
+.body div div{margin-bottom:-1px;}
+}
+/* Padding fix for Legacy video hero*/
+@media screen and (max-width:858px){
+/*.vidHero {padding-top:88px !Important;}*/
+}
+
+@media screen and (max-width: 859px){
+.custVidHero {
+    margin-top: 0px !important;
+   /* padding-top: 87px; */
+}
+}
+/* End UHF Fixes*/
+
+/* Hero CSS*/
+@media only screen and (max-width: 320px) {
+   .m-hero-item.mobile-180.glp-hero.f-y-center>div>div{top: calc(30%);}
+    section.m-hero-item.glp-hero.mobile-180{height: 450px;}
+    .m-hero-item.mobile-200.glp-hero.f-y-center>div>div{top: calc(30%);}
+    section.m-hero-item.glp-hero.mobile-200{height: 500px;}
+    .m-hero-item.mobile-220.glp-hero.f-y-center>div>div{top: calc(40%);}
+    section.m-hero-item.glp-hero.mobile-220{height: 560px;}
+    .m-hero-item.mobile-280.glp-hero.f-y-center>div>div{top: calc(40%);}
+    section.m-hero-item.glp-hero.mobile-280{height: 580px;}
+    .m-hero-item.mobile-320.glp-hero.f-y-center>div>div{top: calc(50%);}
+    section.m-hero-item.glp-hero.mobile-320{height: 640px;}
+    .m-hero-item.mobile-370.glp-hero.f-y-center>div>div{top: calc(55%);}
+    section.m-hero-item.glp-hero.mobile-370{height: 685px;}
+    .m-hero-item.mobile-390.glp-hero.f-y-center>div>div{top: calc(60%);}
+    section.m-hero-item.glp-hero.mobile-390{height: 730px;}
+    .m-hero-item.mobile-440.glp-hero.f-y-center>div>div{top: calc(75%);}
+    section.m-hero-item.glp-hero.mobile-440{height: 820px;}
+    .m-hero-item.mobile-480.glp-hero.f-y-center>div>div{top: calc(88%);}
+    section.m-hero-item.glp-hero.mobile-480{height: 896px;}
+    .m-hero-item.mobile-520.glp-hero.f-y-center>div>div{top: calc(95%);}
+    section.m-hero-item.glp-hero.mobile-520{height: 930px;}
+    .m-hero-item.mobile-560.glp-hero.f-y-center>div>div{top: calc(98%);}
+    section.m-hero-item.glp-hero.mobile-560{height: 980px;}
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+     .m-hero-item.mobile-180.glp-hero.f-y-center>div>div{top: calc(35%);}
+    section.m-hero-item.glp-hero.mobile-180{height: 450px;}
+    .m-hero-item.mobile-200.glp-hero.f-y-center>div>div{top: calc(35%);}
+    section.m-hero-item.glp-hero.mobile-200{height: 490px;}
+    .m-hero-item.mobile-220.glp-hero.f-y-center>div>div{top: calc(38%);}
+    section.m-hero-item.glp-hero.mobile-220{height: 540px;}
+     .m-hero-item.mobile-280.glp-hero.f-y-center>div>div{top: calc(38%);}
+    section.m-hero-item.glp-hero.mobile-280{height: 540px;}
+    .m-hero-item.mobile-320.glp-hero.f-y-center>div>div{top: calc(50%);}
+    section.m-hero-item.glp-hero.mobile-320{height: 620px;}
+    .m-hero-item.mobile-370.glp-hero.f-y-center>div>div{top: calc(55%);}
+    section.m-hero-item.glp-hero.mobile-370{height: 670px;}
+     .m-hero-item.mobile-390.glp-hero.f-y-center>div>div{top: calc(60%);}
+    section.m-hero-item.glp-hero.mobile-390{height: 720px;}
+    .m-hero-item.mobile-440.glp-hero.f-y-center>div>div{top: calc(70%);}
+    section.m-hero-item.glp-hero.mobile-440{height: 780px;}
+    .m-hero-item.mobile-480.glp-hero.f-y-center>div>div{top: calc(78%);}
+    section.m-hero-item.glp-hero.mobile-480{height: 801px;}
+    .m-hero-item.mobile-520.glp-hero.f-y-center>div>div{top: calc(85%);}
+    section.m-hero-item.glp-hero.mobile-520{height: 865px;}
+    .m-hero-item.mobile-560.glp-hero.f-y-center>div>div{top: calc(89%);}
+    section.m-hero-item.glp-hero.mobile-560{height: 890px;}
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+     .m-hero-item.mobile-180.glp-hero.f-y-center>div>div{top: calc(30%);}
+    section.m-hero-item.glp-hero.mobile-180{height: 450px;}
+    .m-hero-item.mobile-200.glp-hero.f-y-center>div>div{top: calc(30%);}
+    section.m-hero-item.glp-hero.mobile-200{height: 485px;}
+    .m-hero-item.mobile-220.glp-hero.f-y-center>div>div{top: calc(32%);}
+    section.m-hero-item.glp-hero.mobile-220{height: 505px;}
+      .m-hero-item.mobile-280.glp-hero.f-y-center>div>div{top: calc(38%);}
+    section.m-hero-item.glp-hero.mobile-280{height: 570px;}
+    .m-hero-item.mobile-320.glp-hero.f-y-center>div>div{top: calc(53%);}
+    section.m-hero-item.glp-hero.mobile-320{height: 670px;}
+    .m-hero-item.mobile-370.glp-hero.f-y-center>div>div{top: calc(53%);}
+    section.m-hero-item.glp-hero.mobile-370{height: 670px;}
+     .m-hero-item.mobile-390.glp-hero.f-y-center>div>div{top: calc(60%);}
+    section.m-hero-item.glp-hero.mobile-390{height: 720px;}
+    .m-hero-item.mobile-440.glp-hero.f-y-center>div>div{top: calc(70%);}
+    section.m-hero-item.glp-hero.mobile-440{height: 795px;}
+    .m-hero-item.mobile-480.glp-hero.f-y-center>div>div{top: calc(75%);}
+    section.m-hero-item.glp-hero.mobile-480{height: 800px;}
+    .m-hero-item.mobile-520.glp-hero.f-y-center>div>div{top: calc(80%);}
+    section.m-hero-item.glp-hero.mobile-520{height: 845px;}
+    .m-hero-item.mobile-560.glp-hero.f-y-center>div>div{top: calc(83%);}
+    section.m-hero-item.glp-hero.mobile-560{height: 865px;}
+}
+@media only screen and (min-width: 415px) and (max-width: 767px) {
+      .m-hero-item.mobile-180.glp-hero.f-y-center>div>div{top: calc(33%);}
+    section.m-hero-item.glp-hero.mobile-180{height:calc(270px + 48vw)}
+      .m-hero-item.mobile-200.glp-hero.f-y-center>div>div{top: calc(33%);}
+    section.m-hero-item.glp-hero.mobile-200{height:calc(280px + 48vw)}
+    .m-hero-item.mobile-220.glp-hero.f-y-center>div>div{top: calc(33%);}
+    section.m-hero-item.glp-hero.mobile-220{height:calc(280px + 56vw)}
+     .m-hero-item.mobile-280.glp-hero.f-y-center>div>div{top: calc(33%);}
+    section.m-hero-item.glp-hero.mobile-280{height:calc(280px + 58vw)}
+    .m-hero-item.mobile-320.glp-hero.f-y-center>div>div{top: calc(40%);}
+    section.m-hero-item.glp-hero.mobile-320{height:calc(280px + 69vw)}
+    .m-hero-item.mobile-370.glp-hero.f-y-center>div>div{top: calc(53%);}
+    section.m-hero-item.glp-hero.mobile-370{height:calc(350px + 74vw)}
+    .m-hero-item.mobile-390.glp-hero.f-y-center>div>div{top: calc(53%);}
+    section.m-hero-item.glp-hero.mobile-390{height:calc(370px + 74vw)}
+    .m-hero-item.mobile-440.glp-hero.f-y-center>div>div{top: calc(60%);}
+    section.m-hero-item.glp-hero.mobile-440{height:calc(500px + 56vw)}
+    .m-hero-item.mobile-480.glp-hero.f-y-center>div>div{top: calc(70%);}
+    section.m-hero-item.glp-hero.mobile-480{height:calc(520px + 58vw)}
+    .m-hero-item.mobile-520.glp-hero.f-y-center>div>div{top: calc(72%);}
+    section.m-hero-item.glp-hero.mobile-520{height:calc(511px + 64vw)}
+    .m-hero-item.mobile-560.glp-hero.f-y-center>div>div{top: calc(79%);}
+    section.m-hero-item.glp-hero.mobile-560{height:calc(598px + 56vw)}
+}
+.m-cta-module, .heroPlatforms{
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-hero-item.glp-hero.f-precise-click{padding: 0 3.5% 0 3%;}
+.m-hero-item.glp-hero.f-y-center>div>div{
+top: calc(50%);
+padding: 0 24px 0 24px;
+}
+.m-hero-item.glp-hero .c-heading-1{
+font-size:64px;
+padding-bottom:0px;
+font-weight: 700;
+}
+.m-hero-item.glp-hero .c-heading-4, .m-hero-item .c-subheading-4{
+padding-top:0px !important;
+}
+.m-hero-item.glp-hero div{
+margin-top:0px !important;
+}
+.m-hero-item.glp-hero>div>div{
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+}
+.heroPad48{padding-top:42px !important;}
+.m-hero-item.glp-hero .tg-svg4kLogo {
+    height: 45px !important;
+}
+.m-hero-item.glp-hero .tg-svgHDRLogo {
+    height: 22px !important;
+}
+.m-hero-item.glp-hero .tg-svgSDLogo {
+    height: 59px !important;
+}
+
+@media only screen and (max-width: 1399px) {
+section.m-hero-item.glp-hero h1.c-heading-1{font-size:46px}
+}
+@media only screen and (min-width: 768px) and (max-width: 1083px) {
+section.m-hero-item.glp-hero.mobile-180 {height:calc(270px + 48vw);}
+section.m-hero-item.glp-hero.mobile-200 {height:calc(300px + 50vw);}
+section.m-hero-item.glp-hero.mobile-220 {height:calc(345px + 52vw);}
+section.m-hero-item.glp-hero.mobile-280 {height:calc(370px + 56vw);}
+section.m-hero-item.glp-hero.mobile-320 {height:calc(550px + 38vw);}
+section.m-hero-item.glp-hero.mobile-370 {height:calc(520px + 50vw);}
+section.m-hero-item.glp-hero.mobile-390 {height:calc(530px + 52vw);}
+section.m-hero-item.glp-hero.mobile-440 {height:calc(545px + 56vw);}
+section.m-hero-item.glp-hero.mobile-480 {height:calc(570px + 56vw);}
+section.m-hero-item.glp-hero.mobile-520 {height:calc(545px + 64vw);}
+section.m-hero-item.glp-hero.mobile-560 {height:calc(672px + 50vw);}
+section.m-hero-item.glp-hero picture img{top:0;transform: translateY(0px);}
+section.m-hero-item.glp-hero>div{max-width:600px;top:0;overflow:visible;}
+section.m-hero-item.glp-hero>div>div{top:calc(50px + 48vw) !important; transform:translateY(0%) !important;width:600px;max-width:600px;}
+.m-hero-item.glp-hero .pad48{padding-top:0px !important;}
+}
+@media only screen and (min-width: 1084px) {
+.f-transparent-hero section.m-hero-item.glp-hero:before {
+    padding-bottom: 60.2%;
+    padding-top: 0px;
+}
+.m-hero-item.glp-hero.f-x-right>div{margin-right:5%;}
+.m-hero-item.glp-hero.f-x-left>div{margin-left:5%;}
+.m-hero-item.glp-hero>div>div{width:450px; max-width:450px;}
+.opacity0{background-color: rgba(0,0,0,0.0) !important;}
+.opacity10{background-color: rgba(0,0,0,0.1) !important;}
+.opacity20{background-color: rgba(0,0,0,0.2) !important;}
+.opacity30{background-color: rgba(0,0,0,0.3) !important;}
+.opacity40{background-color: rgba(0,0,0,0.4) !important;}
+.opacity50{background-color: rgba(0,0,0,0.5) !important;}
+.opacity60{background-color: rgba(0,0,0,0.6) !important;}
+.opacity70{background-color: rgba(0,0,0,0.7) !important;}
+.opacity75{background-color: rgba(0,0,0,0.75) !important;}
+.opacity80{background-color: rgba(0,0,0,0.8) !important;}
+.opacity90{background-color: rgba(0,0,0,0.9) !important;}
+.opacity100{background-color: rgba(0,0,0,1.0) !important;}
+.opacity10-white{background-color: rgba(255,255,255,0.1) !important;}
+.opacity20-white{background-color: rgba(255,255,255,0.2) !important;}
+.opacity30-white{background-color: rgba(255,255,255,0.3) !important;}
+.opacity40-white{background-color: rgba(255,255,255,0.4) !important;}
+.opacity50-white{background-color: rgba(255,255,255,0.5) !important;}
+.opacity60-white{background-color: rgba(255,255,255,0.6) !important;}
+.opacity70-white{background-color: rgba(255,255,255,0.7) !important;}
+.opacity80-white{background-color: rgba(255,255,255,0.8) !important;}
+.opacity90-white{background-color: rgba(255,255,255,0.9) !important;}
+.opacity100-white{background-color: rgba(255,255,255,1.0) !important;}
+}
+@media only screen and (min-width: 1400px) {
+.m-hero-item.glp-hero>div>div{width:550px; max-width:550px;}
+}
+@media only screen and (min-width: 1800px) { /*Try to keep copy card in line with containers below*/
+.m-hero-item.glp-hero.f-x-right>div{margin-right:calc((101% - 1600px) * .46);}
+.m-hero-item.glp-hero.f-x-left>div{margin-left:calc((101% - 1600px) * .46);}
+}
+@media only screen and (max-width: 767px) {
+    .m-hero-item.glp-hero .heroPad48.heroLogos img {max-width:30%;}
+}
+@media only screen and (max-width: 539px) {
+    .m-hero-item.glp-hero .heroPad48.heroLogos img{margin-right:5px;}
+.m-hero-item.glp-hero .heroPad48.heroLogos img:last-child{margin-right:0px;}
+}
+@media only screen and (min-width: 541px) {
+.m-hero-item.glp-hero .heroPad48.heroLogos img{margin-right:40px;}
+.m-hero-item.glp-hero .heroPad48.heroLogos img:last-child{margin-right:0px;}
+}
+
+@media only screen and (min-width: 1084px) and (max-width: 1399px) {.heroPad48{padding-top:22px !important; }.m-hero-item .c-heading-4{font-size: 20px;}}
+.m-hero-item.glp-hero .tg-svgHeroLogos{display:inline;}
+.m-hero-item .heroXGP a{padding-bottom:0px !important;}
+.m-hero-item .platformCircle{padding: 0px 8px 0px 8px;}
+@media only screen and (max-width: 1083px) {
+section.m-hero-item.glp-hero>div>div {background-color:transparent !important;}
+}
+@media only screen and (max-width: 539px) {.m-hero-item.glp-hero .glpHeroLogo{padding-right:0px; margin-bottom:24px;}}
+@media only screen and (max-width: 767px) {.m-hero-item .heroPad48.c-heading-2{padding-top: 0px !important;}}
+
+@media (forced-colors: active) {
+.theme-light.f-transparent-hero .black-c {
+    forced-color-adjust: auto;}
+}
+
+/* End Hero CSS*/
+
+/* Accolades CSS*/
+
+@media (min-width:1399px) {
+    .GLPaccolades .m-panes section {
+        border-left: 1px solid #fff !Important;
+    }
+
+        .GLPaccolades .m-panes section:nth-child(1) {
+            border-left: none !Important;
+        }
+}
+
+@media(max-width:1398px) {
+    .GLPaccolades .m-panes section {
+        border-top: 1px solid #fff;
+    }
+
+        .GLPaccolades .m-panes section:nth-child(1) {
+            border-top: none;
+        }
+}
+@media only screen and (max-width: 321px) {
+.GLPaccolades .m-panes-product-placement-item img{max-width: 275px}
+}
+/*End Accolades CSS*/
+
+.m-banner.jumpgcontainer .c-heading-1 {font-family: 'SegoeProBlack';}
+
+/* Game feature CSS*/
+.m-feature.f-image-priority.full-width{background-color:#107c10; color:#ffffff;}
+@media only screen and (min-width: 768px) and (max-width: 1083px) {
+section.m-feature.f-image-priority.full-width picture{width: 55%}
+section.m-feature.f-align-right.f-image-priority.full-width div.textscoot{width: 45%; left:55%;}
+section.m-feature.f-align-left.f-image-priority.full-width div.textscoot{width: 45%;}
+div.stealth-carousel .c-heading-3, section.m-feature.full-width .c-heading-3{font-size: 24px; line-height: 28px;}
+div.stealth-carousel .c-paragraph-1, section.m-feature.full-width .c-paragraph-1{font-size: 15px;line-height: 20px;}
+}
+@media screen and (max-width:767px){
+section.m-feature.f-image-priority.full-width .m-ambient-video{padding:0 !important;}
+}
+@media only screen and (min-width: 1799px){
+section.m-feature.f-align-left.f-image-priority.full-width div.textscoot{padding-left: 125px; width: 33%;}
+section.m-feature.f-align-right.f-image-priority.full-width div.textscoot{padding-right: 125px; left:67%; width: 33%;}
+}
+@media only screen and (min-width: 1921px){
+section.m-feature.f-align-left.f-image-priority.full-width, section.m-feature.f-align-right.f-image-priority.full-width
+{
+    max-width:1920px;
+    margin: 48px auto 0 auto;
+}
+}
+@media only screen and (max-width: 767px){
+section.m-feature.f-align-left.f-image-priority.full-width, section.m-feature.f-align-right.f-image-priority.full-width
+{
+    margin-top:0px;
+}
+section.m-feature.f-align-left.f-image-priority.full-width>div, section.m-feature.f-align-right.f-image-priority.full-width>div
+{
+    text-align: left;
+    width: 100%;
+    padding:0px 84px 48px 84px;
+}
+section.m-feature.f-align-left.f-image-priority.full-width.t-margin48, section.m-feature.f-align-right.f-image-priority.full-width.t-margin48
+{
+    margin-top:48px;
+}
+} 
+@media only screen and (min-width: 768px){
+    section.m-feature.full-width .c-heading-3{padding-top: 0px;}
+}
+@media only screen and (max-width: 539px){
+section.m-feature.f-align-left.f-image-priority.full-width>div, section.m-feature.f-align-right.f-image-priority.full-width>div
+{
+    padding:0px 68px 48px 68px;
+}
+}
+section.m-feature.f-align-left.f-image-priority.full-width div.m-ambient-video, section.m-feature.f-align-right.f-image-priority.full-width div.m-ambient-video{
+background-color:black;
+}
+@media only screen and (min-width: 1084px){
+section.m-feature.f-align-left.f-image-priority.full-width div.m-ambient-video, section.m-feature.f-align-right.f-image-priority.full-width div.m-ambient-video
+{width: 66%;}
+}
+/* End game feature CSS*/
+
+/* Gallery tweaks*/
+.media-gallery-single .c-carousel .c-flipper , .media-gallery-single .inlinefilmstrip, .media-gallery-single .OttoFilmstrip {display: none !important;}
+@media only screen and (max-width: 470px){
+.m-hero.ottoinlinemedia .m-hero-item.vid-container, div.lightboxcontent div.lightboxcontainer{
+    height:100vw !important;
+}
+}
+
+/* End gallery*/
+
+/* Jump container*/
+.jumpgcontainer p.c-paragraph-1{padding-top: 8px;}
+/*END JC*/
+
+/* Cross Gen CSS*/
+.m-hero-item.cross-gen .c-heading-2{font-weight: 800;}
+/* End Cross Gen CSS*/
+
+/*META CSS*/
+.glyph-repair{position:absolute; bottom:0px; right:10px;}
+.hero-apply-button{position:absolute; padding-left:75px;}
+.hero-apply-button:hover{cursor:pointer;}
+.meta-toggle:hover, .meta-toggle-mobile-height:hover{cursor:pointer;}
+.meta-toggle, .meta-toggle-mobile-height{margin-left:20px; padding:2px; background-color:#00000057;}
+/*END META CSS*/
+
+
+.c-button {
+    font-weight: 700;
+}
+.tac{text-align:center;}
+
+#Stealth-Carousel-1 .damVideo{
+    width: 100%;
+    height: 50vw;
+}
+
+/*** Old sup code from 2017 template, may need later? 
+@media screen and (min-width:540px) {
+    .threeP-hero sup {
+        left: -.5em !Important;
+        top: -1em !important;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    sup {
+        left: -.7em !important;
+        top: -.6em !important;
+        padding-right: 10px;
+    }
+}*/
+
+/* Purchase Section */
+#add-ons picture, #add-ons2 picture, #subscriptions picture {
+height: 408px;
+ overflow: hidden;
+}
+
+.pricing {
+    max-width: 420px;
+}
+@media screen and (max-width: 1083px) {
+    .purchase .purchaseSection section:first-child {
+        text-align: center;
+        padding-bottom:48px;
+    }
+    .pricing {
+        max-width: inherit;
+    }
+
+    .purchase .purchaseSection section img {
+        max-width: 100%;
+    }
+
+    .pricing {
+        margin: 0 auto;
+    }
+
+    .purchase .purchaseSection .purchaseButtons {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .purchase .purchaseSection .c-heading-3 {
+        padding-top: 0px;
+    }
+
+    /* uncomment to center content verically */
+    /* .contentParent {position: relative;}
+.contentChild {    
+     top: calc(-50%);
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);} 
+*/
+}
+
+.getGame {
+    margin-bottom: 48px;
+}
+.storefronts .m-banner .c-image {
+    width: 125px;
+}
+.storefronts .m-banner .c-logo {
+padding: 24px 40px 96px 40px;
+max-width: 30%;
+}
+@media screen and (max-width: 767px) {
+.storefronts .m-banner .c-logo {
+    padding: 24px 0px 48px 0px;
+
+}
+}
+
+.purchase {
+    margin-bottom: 48px;
+}
+
+    .purchase .padT16 {
+        padding-top: 16px !important;
+    }
+
+    .purchase .padT23 {
+        padding-top: 23px !important;
+    }
+
+    .purchase .purchaseSection .c-paragraph {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 12px 0 0;
+        font-weight: 400;
+    }
+
+    .purchase .purchaseSection .c-group {
+        display: block;
+        overflow: visible;
+        margin-top: 10px;
+    }
+
+.btnFat {
+    margin-top: 10px;
+}
+
+
+.purchaseDrop {
+    margin-top: 12px;
+}
+
+    .pricing .leftCol, .pricing .rightCol {
+        display: inline-block;
+        margin-right: 12px;
+    }
+
+        .pricing .rightCol img {
+            height: 18px;
+            width: auto;
+            margin-top: 8px;
+        }
+
+    .pricing h4 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+        .pricing h4.origPrice {
+            text-decoration: line-through;
+            color: #696969;
+        }
+
+    .pricing .gp {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+.m-product-placement .pricing {
+    margin-bottom: 0px;
+}
+
+    .m-product-placement .pricing h4 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .m-product-placement .pricing .rightCol img {
+        height: 13px;
+        margin-top: 5px;
+    }
+
+.m-content-placement-item .c-group {
+    display: block;
+}
+
+.purchaseSection hr.c-divider {
+    margin: 12px 0;
+}
+
+.purchase .f-heavyweight {
+    margin-top: 12px !important;
+}
+
+.theme-black .thumbnailarea {
+    background-color: #000 !important;
+}
+
+.theme-black .c-pivot header a {
+    color: #fff;
+}
+
+.theme-black .c-divider {
+    border-top: 1px solid #767676;
+}
+
+.nineTeenTwenty {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.xpa select {
+    display: inline;
+    margin-right: 12px;
+}
+
+.xpa .c-image {
+    display: inline-block;
+}
+
+.xpa-hide select {
+    display: none;
+}
+
+.xpa-hide .c-image {
+    margin-top: 24px;
+}
+
+.c-age-rating .c-image {
+    float: left;
+    width: 68px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .glp-pivot .c-pivot > header, .glp-pivot .c-pivot > button {
+        display: none !important;
+    }
+
+    .purchaseDrop {
+        margin-bottom: 12px;
+    }
+}
+/* End Purchase Section */
+/* EA Access */
+.ea-cta-marg {
+    margin-top: 24px;
+}
+
+@media screen and (min-width: 540px) {
+    .ea-logo {
+        width: 186px;
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .ea-logo {
+        display: none !important;
+    }
+}
+
+
+/* VFI */
+.m-product-placement.f-video a:focus, div.stealth-sub-carousel.center-carousel a:focus, div.storefronts .m-banner a:focus{
+    outline: #0F760F dashed 4px !important;
+}
+
+div.xgpBlade .m-hero-item a:focus{
+    outline: #ffffff dashed 4px !important;
+}
+
+.m-product-placement-item > a:focus {
+    outline: #000 dashed 2px !important;
+}
+
+.purchaseSection select:focus {
+    outline: 6px dashed #0F760F;
+}
+
+.theme-black .purchaseSection select:focus {
+    outline: 6px dashed #9bf00b;
+}
+
+/* Media Carousel */
+.inline-raven .thumbnailarea {
+    display: none;
+}
+
+.c-carousel picture.c-image {
+    background-color: #000 !important;
+}
+
+/* Old Media Gallery - remove when metro is fixed */
+.BGtransplay button.c-action-trigger:focus {
+    border: 3px dashed #FFF;
+}
+
+.BGtransplay img.c-image, picture.c-image img {
+    margin: auto !important;
+}
+
+.BGtransplay a.c-action-trigger, .BGtransplay button.c-action-trigger {
+    background: rgba(0,0,0,.6) !important;
+    border-radius: 50% !important;
+    font-size: 24px !important;
+    line-height: 14px !important;
+    padding-right: 5px !important;
+    height: 48px !important;
+    width: 48px !important;
+    color: #FFF !important;
+}
+
+.imagecontainer {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: calc(50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    margin: auto;
+    right: 0;
+}
+/* Mixer */
+.mixerStatic .m-hero-item > div > div picture, .mixerStream .c-logo {
+    max-width: 218px;
+}
+
+.ctaDiv a.c-call-to-action.f-heavyweight:focus {
+    outline: #FFF dashed 2px !important;
+}
+
+.mixerStream .ctaDiv {
+    margin-top: 14px;
+}
+
+.mixerStream .player {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:1399px) {
+    .mixerStream .c-heading-2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 36px 0 4px;
+        max-height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mixerStream .static {
+        display: block;
+    }
+
+    .mixerStream .stream {
+        display: none;
+    }
+
+    .mixerStatic .m-hero-item > div > div picture, .mixerStream .c-logo {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mixerStream .static {
+        display: none;
+    }
+
+    .mixerStream .player iframe {
+        width: 100%;
+        height: 22.2vw;
+        border: 0;
+    }
+
+    .m-highlight-feature div {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .mixerStream .player iframe {
+        height: 29vw;
+    }
+}
+
+@media screen and (min-width: 1860px) {
+    .mixerStream .player {
+        margin-left: 7.9vw;
+    }
+}
+
+/* New live gold */
+.live-gold .m-hero-item > div > div picture {
+    max-width: 170px;
+}
+
+    .live-gold .m-hero-item > div > div picture img {
+        width: 100%;
+    }
+
+@media screen and (max-width:767px) {
+    .live-gold .m-hero-item > div > div {
+        color: #000;
+    }
+
+        .live-gold .m-hero-item > div > div picture {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .live-gold .m-hero-item > div > div h2 {
+            padding-top: 12px;
+        }
+}
+
+@media screen and (min-width:768px) {
+    .live-gold .m-hero-item > div > div {
+        color: #fff;
+    }
+
+    .live-gold a.c-call-to-action span, button.c-call-to-action span {
+        color: #9bf00b !important;
+    }
+
+    .live-gold a.c-call-to-action.f-lightweight, button.c-call-to-action.f-lightweight {
+        color: #9bf00b !important;
+    }
+}
+
+@media screen and (min-width:1084px) {
+    .live-gold section {
+        height: 30.9vw;
+    }
+}
+/* End new live gold */
+
+/* automation */
+.glpbigids, .GLPtranslations {
+    display: none;
+}
+
+.priceareas {
+    display: block;
+}
+
+#add-ons picture, #subscriptions picture {
+    height: 408px;
+    overflow: hidden;
+}
+
+.purchaseSection picture.custompsimage {
+    display: block;
+    /* height: 430px; 
+    overflow: hidden; */
+}
+
+    .purchaseSection picture.custompsimage img {
+        max-width: 324px;
+        display: block;
+        margin: 12px auto;
+    }
+
+@media (max-width: 540px) {
+    .purchaseSection picture.custompsimage {
+        /* height: 250px; */
+    }
+
+        .purchaseSection picture.custompsimage img {
+            max-width: 180px;
+        }
+}
+
+.priceareas.hidden {
+    display: none !important;
+}
+
+.custompsimage img {
+    border: 1px solid #dedede;
+}
+
+/* gear */
+.xbox-gear {
+    margin-bottom: 48px;
+}
+
+@media only screen and (min-width:768px) {
+    .xbox-gear .m-highlight-feature > div {
+        background: none !important;
+        box-shadow: none !important;
+        color: black !important;
+    }
+
+    .gear-black .m-highlight-feature > div {
+        color: #fff !important;
+    }
+
+    .gear-black a.c-call-to-action span {
+        color: #9bf00b !important;
+    }
+}
+
+/* Text underline for ESRB section*/
+.m-additional-information .c-label a:focus {
+    text-decoration: underline !Important;
+}
+
+/* XBOX GAME PASS BLADE CUSTOM CLASS */
+.backgroundBlack {
+    background-color: #000;
+    color: #fff;
+}
+
+.xgpBlade .m-hero-item.f-x-center > div > div .c-image {
+    margin: -80px auto !important;
+}
+
+.xgpBlade a.c-call-to-action, button.c-call-to-action {
+    margin-top: -50px !Important;
+}
+
+@media screen and (max-width: 768px) {
+    .backgroundBlack {
+        background-color: #2f2f2f !important;
+    }
+}
+
+/* GAME FEATURES FULL WIDTH*/
+@media screen and (min-width: 768px) {
+     .m-ambient-video.pp-right div button { right:24px; }
+}
+
+.gameFeatureFullWidth .m-highlight-feature > div {
+    background: none !important;
+    color: white !important;
+    box-shadow: none !Important;
+}
+
+@media only screen and (min-width:1400px) {
+    .gameFeatureFullWidth .m-highlight-feature > div {
+        width: 500px !important;
+    }
+}
+
+@media only screen and (min-width:1084px) {
+    .gameFeatureFullWidth .m-highlight-feature > .right-align {
+        margin-right: 10%;
+    }
+
+    .gameFeatureFullWidth .m-highlight-feature > .left-align {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .gameFeatureFullWidth .c-heading {
+        font-size: 34px !important;
+        line-height: 40px !important;
+    }
+
+    .gameFeatureFullWidth p {
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+}
+
+.discounted {
+    text-decoration: line-through !important;
+}
+
+/* EA Acess blade */
+/*.ea-access .m-image-intro div p,
+.ea-access .m-image-intro div a { 
+  font-size:18px;
+}*/
+@media screen and (max-width:771px) and (min-width:768px){
+ .ea-cta-marg{ margin-top:10px;}
+}
+
+/* Accessibility */
+.details a:focus  {
+    outline: black dashed 2px !important;
+}
+
+/* subscription area */
+#subscriptions picture {
+  overflow: hidden;
+}
+
+/* Tall modified feature */
+.vertX1S .copy-container .badge {max-width: 152px; max-height: 223px; padding: 0 !important; text-align: left !important;}
+.vertX1S .copy-container .badge.vTwo {max-width: 205px; max-height: 97px;}
+.vertX1S .copy-container .badge img {width: 100%; height: 100%;}
+.vertX1S .m-feature {margin-top: 0px;}
+
+@media screen and (min-width: 768px) and (max-width: 1083px) {
+  .vertX1S .copy-container .badge.vTwo {width: 125px;}
+}
+@media screen and (min-width: 1084px) {
+  .vertX1S .copy-container .badge.vTwo {width: 14vw;}
+}
+@media (min-width: 1300px) and (max-width: 1400px) {
+  #Overview{height: 71vw;}
+}
+@media screen and (min-width: 1400px) {
+  .c-feature.f-align-right>div.copy-container{top: calc(50% - 48px);}
+}
+
+.vertX1S .copy-container .icons [data-grid~=col-4] img, .vertX1S .copy-container .icons [data-grid~=col-8] img { height: 42px;}
+
+.vertX1S [class*=c-paragraph].f-lean { padding-top: 10px !important;}
+
+@media screen and (max-width: 1500px) and (min-width: 768px) {
+.vertX1S .c-paragraph-2 {font-size: 15px;}
+.vertX1S .copy-container .badge {padding-left:15px; padding-right: 25px;}
+.vertX1S .copy-container .badge.vTwo {padding-left:0px; padding-right: 0px;}
+}
+@media screen and (min-width: 1400px) {
+.vertX1S .copy-container .badge.vTwo {margin-bottom: 20px;}
+}
+@media screen and (max-width: 1400px) and (min-width: 1084px) {
+.vertX1S .c-heading-1, .vertX1S .c-heading-2 {font-size: 34px; line-height: 44px;}
+.vertX1S .c-feature.f-align-left > div, .vertX1S .c-feature.f-align-right > div, .vertX1S .m-feature.f-align-left > div, .vertX1S .m-feature.f-align-right > div {
+    top: calc(38%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+}
+
+@media (max-width: 1083px) and (min-width: 768px) {
+.vertX1S .c-heading-1, .vertX1S .c-heading-2 {font-size: 24px; line-height: 34px}
+.vertX1S .copy-container .icons [data-grid~=col-4] {padding-right: 9px;}
+.vertX1S .copy-container .icons [data-grid~=col-4] img, .vertX1S .copy-container .icons [data-grid~=col-8] img { height: 30px;}
+.vertX1S .copy-container .icons [data-grid~=col-4] p { padding-top: 10px;}
+}
+@media screen and (max-width: 1083px) and (min-width: 860px) {
+.vertX1S .c-feature.f-align-left > div, .vertX1S .c-feature.f-align-right > div, .vertX1S .m-feature.f-align-left > div, .vertX1S .m-feature.f-align-right > div {
+    top: calc(38%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+}
+@media screen and (max-width: 859px) and (min-width: 768px) {
+.vertX1S .c-feature.f-align-left > div, .vertX1S .c-feature.f-align-right > div, .vertX1S .m-feature.f-align-left > div, .vertX1S .m-feature.f-align-right > div {
+    top: calc(38%);
+    -ms-transform: translateY(-38%);
+    transform: translateY(-38%);
+}
+}
+
+@media only screen and (max-width:767px) {
+.vertX1S .copy-container .badge {margin: 0 auto; max-width: 92px; max-height: 135px;}
+.vertX1S .copy-container .badge.vTwo {max-width: 205px; max-height: 97px;}
+[data-grid~='col-4'].lessIcons { width: 16.665%;}
+}
+@media only screen and (max-width:540px) {
+.vertX1S .icons .no-stack [data-grid~='col-4'] { width: 33.33%; float: left !important; padding-left: 4px; padding-right: 4px;}
+.vertX1S .icons .no-stack-2 [data-grid~='col-4'] { width: 50%; float: left !important; padding-left: 4px; padding-right: 4px;}
+.vertX1S .icons .no-stack-2 [data-grid~='col-4'].lessIcons {display: none;}
+}
+
+@media only screen and (min-width:540px) {
+.vertX1S .copy-container .copy {text-align: left;}
+
+}
+@media only screen and (max-width:767px) {
+.vertX1S .copy-container .copy.vTwo {text-align: center;}
+}
+
+@media only screen and (min-width:1084px) {
+[data-grid~='container']#Overview {
+    margin: 0 auto;
+    padding-right: 5%;
+    max-width: 100%;
+    padding-left: 0px;
+}
+.vertX1S [data-grid~='col-4'] {
+    padding-right: 10px;
+}
+
+}
+@media only screen and (min-width:1779px) {
+.vertX1S .c-feature.f-align-right> div {
+    padding-left: 6.5vw;
+}
+}
+
+
+@media screen and (min-width: 1399px) {
+.vertX1S .copy-container .icons {margin-top:47px;}
+}
+
+
+
+@media screen and (max-width: 1398px) and (min-width: 540px) {
+    .vertX1S [data-grid~=col-12] {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .vertX1S [data-grid~=col-4] {
+        padding-top: 20px;
+        !important
+    }
+}
+@media screen and (min-width: 1921px) {
+    .vertX1S #Overview {width: 1920px; margin: 0 auto;}
+}
+/* End Tall modified feature */
+
+/* purchase dropdowns */
+.xpa.f-border select {
+    padding: 7px 48px 7px 8px;
+    border: 1px solid black;
+}
+/* end purchase dropdowns */
+
+/*.m-panes .m-panes-product-placement-item a.c-call-to-action.c-glyph:not(.cta-btn-dark):focus{
+outline-style: dashed !important;
+outline-color: black !important;
+outline-width: 2px !important;
+border-style: dashed !important;
+border-color:white !important;
+border-width: 1px !important;
+}*/
+
+/* CTA line break fixes in the hero */
+@media screen and (max-width:1920px) and (min-width:1400px){
+.platformName{position:relative !Important; width:550px !important; right:30px !Important;}
+}
+
+@media screen and (max-width:1400px) and (min-width:1083px){
+.platformName{position:relative !Important; width:550px !important; right:75px !Important;}
+}
+
+@media screen and (max-width:630px){
+.platformName{width:100%; text-align:center;}
+.desktop-show { display: initial !important;}
+
+}
+
+.hideBreak {
+    display: none;
+}
+
+@media screen and (max-width:768px){
+.xboxGamePassLogo{display:block !important;}
+}
+
+
+/* Copy card fixes and added badges */
+@media screen and (max-width:768px){
+.xboxGamePassLogo{display:block !important;}
+}
+
+.xboxGamePassLogo{max-width:190px !important; max-height:32px !important; display:inline-block !important; width:190px !important; padding-bottom:60px !Important;}
+.xboxOneXBadgeLogo{max-width:135px !important; max-height: 60px !important; display:inline !Important; margin-top:-9px !important;}
+.optimizedLogo{max-width:180px !important; max-height:80px !important;}
+
+
+/* Optimized blade fix for 1 colum */
+@media screen and (min-width:768px){
+.vertX1S .oneColumn [data-grid*="col-"] {float:none !Important;}
+}
+
+@media screen and (max-width: 768px){
+ .vertX1S .oneColumn [data-grid*="col-"] {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: inherit 0;
+  }
+}
+.pricing .context-glyph-tile .c-glyph {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-family: "MWF-MDL2";
+}
+.pricing .rightCol .context-glyph-tile {
+    top: 1px;
+    position: relative;
+}
+
+@media screen and (min-width: 2500px) {
+.custom-sb-hero .copy-left .content-div>div {
+    left: -7vw !important;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+section.m-hero-item {
+    max-width: 100% !important;
+    margin: 0 auto !Important;
+  }
+}
+
+
+ .esrbblade a:focus{
+      outline:2px dashed #fff !important;
+}
+@media (min-width: 1500px) {
+  .esrbblade .c-age-rating .c-content-toggle {
+    padding-right: 40px;
+  }
+}
+
+.heroLogos a:focus {
+  outline: 2px dashed #fff !important;
+}
+
+
+/* Accessibility Fixes */
+
+@media screen and (-ms-high-contrast: active) {
+  .heroXGP .joinNowCTA{
+         color:black !important;
+         background-color:white !important;
+  }
+
+}
+
+@media (forced-colors: active) {
+.heroXGP a:focus {forced-color-adjust: none !important;}
+.heroLogos a {forced-color-adjust: none !important;}
+.xboxGamePassLogo {forced-color-adjust: none !important;}
+.m-hero-item {forced-color-adjust: none !important;}
+}
+
+
+/* Accessibility Fixes */
+
+
+/* Video Hero Section */
+
+@media only screen and (min-width: 1920px){
+.custVidHeroCopy .m-hero-item.glp-hero>div div {
+    top: calc(70%);
+
+ }
+}
+
+
+
+@media screen and (min-width: 1920px) {
+.custVidHeroCopy .m-hero-item.f-x-right>div>div ,
+.custVidHeroCopy .m-hero-item.f-x-left>div>div {
+    margin-top: 2.9% !Important;
+ }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1083px) {
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-520 {
+    height: calc(480px + 10vw);
+    margin-top:-5% !important;
+ }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-440 {
+    height: calc(420px + 12vw);
+     margin-top:-5% !important;
+ }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-320 {
+    height: calc(230px + 8vw);
+     margin-top:-5% !important;
+ }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-220 {
+    height: calc(150px + 8vw);
+     margin-top:-5% !important;
+ }
+}
+    
+
+@media screen and (min-width:768px) and (max-width:1083px) {
+    .custVidHeroCopy. m-hero-item .opacity75 {
+        background-color: rgba(0, 0, 0, 0.7) !important;
+        padding-bottom: 48px !important;
+    }
+}
+
+.custVidHero .m-ambient-video div button {
+    z-index: 10;
+}
+
+@media screen and (min-width:1084px) {
+    .custVidHeroCopy {
+        transform: translateY(-56vw);
+        background-color: transparent !important;
+    }
+
+    .custVidHeroCopy .m-hero-item {
+        position: absolute;
+        background-color: transparent !important;
+    }
+}
+
+@media only screen and (max-width: 1083px) and (min-width: 768px) {
+
+    .custVidHeroCopy section.m-hero-item.glp-hero>div>div {
+        top: 0 !important;
+        padding-bottom: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 859px) {
+    .custVidHeroCopy .m-hero-item.glp-hero.f-transparent.f-precise-click {
+        margin-top: inherit;
+    }
+
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .custVidHeroCopy .m-hero-item.theme-black.glp-hero.f-y-center>div>div {
+        top: calc(0%);
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+    .custVidHeroCopy .m-hero-item.theme-black.glp-hero.f-y-center>div>div {
+        top: calc(0%);
+    }
+
+}
+
+@media only screen and (min-width: 580px) and (max-width: 767px) {
+.custVidHeroCopy  section.m-hero-item.glp-hero.mobile-520 {
+    height: calc(310px + 30vw);
+ }
+.custVidHeroCopy  section.m-hero-item.glp-hero.mobile-440 {
+    height: calc(400px + 10vw);
+ }
+
+.custVidHeroCopy  section.m-hero-item.glp-hero.mobile-320 {
+    height: calc(260px + 5vw);
+ }
+
+.custVidHeroCopy  section.m-hero-item.glp-hero.mobile-220 {
+    height: calc(200px + 5vw);
+ }
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 580px) {
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-520 {
+    height: calc(450px + 10vw);
+ }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-440 {
+    height: calc(450px + 5vw);
+ }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-320 {
+    height: calc(200px + 13vw);
+ }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-220 {
+    height: calc(150px + 10vw);
+ }
+.c-hero.f-transparent:before, .m-hero-item.f-transparent:before {
+    padding-bottom: 45.2% !important;
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+    .custVidHeroCopy .m-hero-item.theme-black.glp-hero.f-y-center>div>div {
+        top: calc(59%);
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+    .custVidHeroCopy .m-hero-item.theme-black.glp-hero.f-y-center>div>div {
+        top: calc(59%);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .custVidHeroCopy .m-hero-item.theme-black.glp-hero.f-y-center>div>div {
+        top: calc(67%);
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #BodyContent>div:nth-child(2) {
+        background-color: black !important;
+    }
+
+    .custVidHero {
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custVidHeroCopy {
+        transform: translateY(-1295px);
+    }
+
+    .custVidHeroCopy .m-hero-item.glp-hero>div {
+        margin-right: calc((101% - 1600px) * .25);
+    }
+    /*
+    .custVidHeroCopy .m-hero-item.glp-hero>div div {
+        top: 550px;
+        transform: translateY(0px);
+    }*/
+}
+
+@media only screen and (max-width: 768px) {
+    .custVidHeroCopy .m-hero-item>div {
+        height: 600px !important;
+    }
+}
+
+
+
+@media screen and (max-width:767px) and (min-width:580px) {
+ .mobile520hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 20%;
+ }
+.mobile440hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 30% !important;
+ }
+.mobile320hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 20% !important;
+ }
+.mobile220hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 15% !important;
+ }
+}
+
+@media screen and (max-width:580px) and (min-width:415px) {
+ .mobile520hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 55%;
+ }
+
+.mobile440hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 40% !important;
+ }
+.mobile320hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 20% !important;
+ }
+.mobile220hero.custVidHeroCopy .m-hero-item.f-transparent:before {
+    padding-bottom: 15% !important;
+ }
+}
+
+
+
+@media screen and (max-width:580px){
+.c-hero.f-transparent:before, .m-hero-item.f-transparent:before {
+    padding-bottom: 55%;
+ }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 415px) {
+section.m-hero-item.glp-hero.mobile-520 {
+    height: calc(350px + 30vw);
+ }
+
+}
+
+@media screen and (max-width:415px){
+
+.mobile520hero.custVidHeroCopy .f-transparent:before {
+    padding-bottom: 0%;
+ }
+.mobile440hero.custVidHeroCopy .f-transparent:before  {
+    padding-bottom: 10% !important;
+ }
+.mobile320hero.custVidHeroCopy .f-transparent:before  {
+    padding-bottom: 5% !important;
+ }
+.mobile220hero.custVidHeroCopy .f-transparent:before  {
+    padding-bottom: 2% !important;
+ }
+.mobile520hero.custVidHeroCopy .m-hero-item>div {
+    height: 400px !important;
+  }
+.mobile440hero.custVidHeroCopy .m-hero-item>div {
+    height: 400px !important;
+  }
+.mobile320hero.custVidHeroCopy .m-hero-item>div {
+    height: 300px !important;
+  }
+.mobile220hero.custVidHeroCopy .m-hero-item>div {
+    height: 340px !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-520 {
+    height: 620px;
+  }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-440 {
+    height: 560px;
+  }
+
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-320 {
+    height: 600px;
+  }
+
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-220 {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-520 {
+    height: 600px !Important;
+  }
+.custVidHeroCopy  section.m-hero-item.glp-hero.mobile-440 {
+    height: 520px;
+  }
+.custVidHeroCopy  section.m-hero-item.glp-hero.mobile-320 {
+    height: 650px;
+  }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-220 {
+    height: 300px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+.custVidHeroCopy .m-hero-item>div {
+    height: 350px !important;
+ }
+
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-520 {
+    height: 650px;
+ }
+
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-440 {
+    height: 550px;
+ }
+
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-320 {
+    height: 400px;
+ }
+.custVidHeroCopy section.m-hero-item.glp-hero.mobile-220 {
+    height: 350px;
+ }
+}
+
+
+/*
+
+@media screen and (min-width:1083px){
+.staticVideo{display:none !important;}
+}
+
+@media screen and (max-width:1083px){
+ .custVidHero{display:none !important;}
+.staticVideo{display:block !important;}
+}
+*/
+
+@media screen and (min-width:1920px){
+.custVidHeroCopy .m-hero-item.f-x-right>div>div {
+    margin-right: 4.1% !important;
+ }
+}
+/* VIDEO HERO */
+
+
+/* FIREFOX HC FIXES */
+
+
+.high-contrast-mode.white-on-black .heroLogos a:focus{    
+    border:2px dashed white !Important;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.high-contrast-mode.black-on-white .heroLogos a:focus{    
+    border:2px dashed white !Important;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+ .heroLogos a:focus+img {border:2px solid red !important;}
+
+.m-product-placement section.pricing .rightCol {
+    max-width: 180px !important;
+    white-space: normal;
+    vertical-align: top;
+}
+
+/* platforms in hero copy card */
+.popicons span.c-paragraph-3 {
+  font-weight: 700;
+} 
+
+
+.heroLogos a:link, .heroLogos a:focus, .heroLogos a:active {
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/* xbox game pass EA logo */
+.xboxGamePassEALogo {
+  max-width: 277px !important;
+  max-height: 32px !important;
+  display: inline-block !important;
+  width: 277px !important;
+  padding-bottom: 60px !Important;
+}
+
+/* EA PLAY BLADE LOGO */
+.eaPlayLogo {
+  width:390px;
+  height:90px;
+}
+
+@media screen and (max-width:1440px) and (min-width:1084px) {
+.eaPlayLogo {
+  width:220px;
+ }
+}
+
+@media screen and (max-width:858px){
+.nineTeenTwenty.m-image{padding-top:88px !Important;}
+}
+
+
+
+/* xbox game pass for pc logo */
+.xgpPc-logo {
+    max-width: 300px !important;
+    max-height: 59px !important;
+    display: inline-block !important;
+    width: 100% !important;
+    padding-bottom: 48px !Important;
+    padding-top: 3px !important;
+   }
+
+.xgpUltimate-logo {
+   max-width: 335px !important;
+    max-height: 40px !important;
+    display: inline-block !important;
+    width: 100% !important;
+    padding-bottom: 65px !Important;
+    margin-top:-6px;
+}
+
+.xgp-paid-media-hero .m-hero-item .heroXGP a {
+    padding-bottom: 5px !important;
+}
+
+/* Game Box Shot Section - quality games */
+
+@media only screen and (min-width: 768px) and (max-width: 1083px) {
+    section.m-hero-item.glp-hero.mobile-sem {
+        height: calc(335px + 52vw);
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    section.m-hero-item.glp-hero.mobile-sem {
+        height: calc(350px + 52vw);
+    }
+}
+@media only screen and (max-width: 399px) {
+    section.m-hero-item.glp-hero.mobile-sem {
+        height: calc(375px + 52vw);
+    }
+}
+
+
+.sem .m-hero-item.f-y-center.f-transparent>div>div,
+.sem .c-hero.f-y-center.f-transparent>div>div {
+    top: 120px;
+    top: calc(50%);
+}
+
+
+
+.sem.newXGPshared {
+    padding-top: 28px;
+    background: #000;
+}
+@media screen and (min-width: 768px) {
+    .sem.newXGPshared .m-hero-item.f-x-center>div>div {
+        width: 100%;
+        min-width: 0;
+        max-width: 80%;
+    }
+    .sem.newXGPshared {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .sem.newXGPshared .m-hero-item.f-x-center>div>div {
+        max-width: 70%;
+    }
+}
+
+
+/* Boxshot Content */
+
+.gameDiv a img.c-image.xpa {
+    margin-top: 4px;
+    outline: none;
+}
+
+.itemHide {
+    display: none !important;
+}
+
+.gameDivCTA {
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+div.gameDivsWrapper {
+    text-align: center;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.gameDivsWrapper .gameDiv {
+    text-align: left;
+    display: inline-block;
+    margin: 24px 10px 16px;
+    vertical-align: top;
+    min-width: 124px;
+    max-width: 219px;
+    width: 18% !important;
+
+      border: 0 !important;
+      padding: 0 !important;
+      white-space: normal;
+}
+
+.m-heading-4+[class*=m-] {
+    padding-top: 0;
+}
+
+.containerIMG {
+    position: relative;
+}
+
+.containerIMG .c-image {
+    width: 100%;
+    max-width: 219px;
+}
+
+.overlay360 {
+    position: absolute;
+    width: 100%;
+}
+
+.overlay360 img {
+    width: 100%;
+}
+
+.playsOn,
+.xpaGame {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 0;
+    left: 0;
+}
+
+.gameDivsWrapper {
+    padding-top: 22px;
+    padding-bottom: 96px;
+}
+
+.m-product-placement-item.f-size-medium.gameDiv picture {
+  width: auto !important;
+  height: 100% !important;
+}
+
+.m-product-placement-item.f-size-medium.gameDiv picture img {
+  position: static;
+  transform: none;
+}
+
+.c-table {
+    padding: 0 32px;
+}
+.tg-table-heading.c-heading-4 {
+     padding-top: 24px;
+}
+
+/* PC Game Pass logo */
+.tg-svgHeroLogos.glpPcGamePassLogo { width:328px; height:48px !Important;}
+
+
+/* Purchase options 2nd CTA */
+@media screen and (max-width:375px) {
+#hero-10 .purchaseOptionsCTA {
+    padding-left: 0px !Important;
+  }
+.m-hero-item.glp-hero.f-y-center>div>div {
+     padding:0px !important;
+ }
+}
+
+@media screen and (min-width:1083px) {
+.popicons{position:relative !Important; top:20px !important;}
+}
+
+
+/* Addon VFI AQA fix */
+.m-product-placement-item.f-size-large {
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.theme-light.f-transparent .heroLogos a:focus {
+  outline:2px dashed black !important;
+}
+
+
+/* EA Play Xbox Game Pass logo */
+.EaPlayGamePassLogo{ width:277px; height:32px !Important; display:inline-block !Important;  padding-bottom:68px !Important;}
+
+
+
+/* Hero Mobile Fix */
+@media screen and (max-width: 859px) {
+.heroMobileFix .m-hero-item.glp-hero >picture img{padding-top:88px !Important;}
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1083px) {
+.heroMobileFix section.m-hero-item.glp-hero>div>div {
+    transform: translateY(50px) !important;
+ }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 859px) {
+.heroMobileFix .m-hero-item.mobile-520.glp-hero.f-y-center>div>div {
+    top: calc(48%) !important;
+ }
+
+.heroMobileFix .m-hero-item.mobile-480.glp-hero.f-y-center>div>div {
+    top: calc(52%) !important;
+ }
+
+.heroMobileFix .m-hero-item.mobile-440.glp-hero.f-y-center>div>div {
+    top: calc(50%) !important;
+ }
+
+.heroMobileFix .m-hero-item.mobile-370.glp-hero.f-y-center>div>div {
+    top: calc(55%) !important;
+ }
+.heroMobileFix .m-hero-item.mobile-320.glp-hero.f-y-center>div>div {
+    top: calc(60%) !important;
+ }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.heroMobileFix .m-hero-item.mobile-520.glp-hero.f-y-center>div>div {
+    top: calc(94%) !important;
+ }
+.heroMobileFix .m-hero-item.mobile-480.glp-hero.f-y-center>div>div {
+    top: calc(85%) !important;
+ }
+.heroMobileFix .m-hero-item.mobile-440.glp-hero.f-y-center>div>div {
+    top: calc(80%) !important;
+ }
+.heroMobileFix .m-hero-item.mobile-370.glp-hero.f-y-center>div>div {
+    top: calc(70%) !important;
+ }
+.heroMobileFix .m-hero-item.mobile-320.glp-hero.f-y-center>div>div {
+    top: calc(60%) !important;
+ }
+.heroMobileFix section.m-hero-item.glp-hero.mobile-520 {
+    height: calc(600px + 68vw) !important;
+ }
+.heroMobileFix section.m-hero-item.glp-hero.mobile-480 {
+    height: calc(560px + 62vw) !important;
+ }
+.heroMobileFix section.m-hero-item.glp-hero.mobile-440 {
+    height: calc(550px + 58vw) !important;
+ }
+.heroMobileFix section.m-hero-item.glp-hero.mobile-370 {
+    height: calc(380px + 82vw) !important;
+ }
+.heroMobileFix section.m-hero-item.glp-hero.mobile-320 {
+    height: calc(300px + 72vw);
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1083px) {
+.heroMobileFix section.m-hero-item.glp-hero.mobile-520 {
+    height: calc(580px + 66vw) !important;
+ }
+.heroMobileFix section.m-hero-item.glp-hero.mobile-370 {
+    height: calc(520px + 52vw) !important;
+ }
+.heroMobileFix section.m-hero-item.glp-hero.mobile-320 {
+    height: calc(550px + 42vw) !important;
+ }
+}
+
+
+/**Social Icons Margin**/
+@media screen and (max-width: 1083px) {
+.xboxSocial .m-social {
+    margin-bottom: 18px !important;
+   }
+}

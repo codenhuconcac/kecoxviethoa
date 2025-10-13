@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************************************
+Float Youtube
+****************************************/
+
+#floatBg {
+	background: url(../img/common/bg/bg_ptn_grid.png) center top #FFF;
+	opacity: 0.9;-moz-opacity: 0.9;filter: alpha(opacity=90);
+	width: 0%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-left:50%;
+	z-index: 1000;
+}
+#YoutubeBg{
+	position:fixed;
+	left: 50%;
+	top:50%;
+	margin: -239px 0 0 -425px;
+	z-index: 1000;
+	background: #000;
+	height: 478px;
+	width: 850px;
+	opacity: 0;
+	display:none\9;
+}
+#YoutubeWrap{
+	position:fixed;
+	left: 50%;
+	top:50%;
+	margin: -239px 0 0 -425px;
+	z-index: 1000;
+	background: #000;
+	height: 478px;
+}
+#movieWrap{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	text-align:center;
+	z-index:9999;
+}#movieWrap .floatImage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -239px 0 0 -425px;
+}
+#movieWrap .floatImage p{	
+}
+#movieWrap .floatImage p.btn_close2{
+	margin:30px 0;	
+	cursor: pointer;
+}
+#movieWrap .floatImage .mainImage{
+	height:550px;
+	opacity:0;
+}
+#movieWrap .floatImage .mainImage img{
+	height:550px;
+}
+#banner_area{
+    position: absolute;
+    top: 240px;
+    margin: 0 23px;
+}
+#banner_area li{
+    float: left;
+    margin: 15px;
+}
+.btn_close{
+	width: 30px;
+	height: 30px;
+	background: url(../img/common/btn_close.png);
+	display:block;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	cursor:pointer;
+	z-index: 9999;
+}
+#ImageWrap{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	text-align:center;
+	z-index:9999;
+}
+#ImageWrap .floatImage{
+	height: 600px;
+	width:100%;
+	position: absolute;
+	top: 50%;
+	margin: -335px 0 0 0;
+}
+#ImageWrap .floatImage p{
+	margin:10px 0;	
+}
+#ImageWrap .floatImage p.btn_close2{
+	margin:30px 0;	
+	cursor: pointer;
+}
+#ImageWrap .floatImage .mainImage{
+	height:550px;
+	opacity:0;
+}
+#ImageWrap .floatImage .mainImage img{
+	height:550px;
+}
+.linerFloatTop{
+	width: 700px;
+	height: 1px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #ddd;
+	margin: -185px 0 0 -350px;
+	overflow:hidden;
+}
+.linerFloatTop .synapse{
+	width:10%;
+	height:1px;
+	background:#23d1de;
+	position:absolute;
+	left:-10%;
+}
+.linerFloatBottom{
+	width: 700px;
+	height: 1px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #ddd;
+	margin: 260px 0 0 -350px;
+	overflow:hidden;
+}
+.linerFloatBottom .synapse{
+	width:10%;
+	height:1px;
+	background:#23d1de;
+	position:absolute;
+	right:-10%;
+}

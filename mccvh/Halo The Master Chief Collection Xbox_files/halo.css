@@ -1,0 +1,146 @@
+.bgColor {
+    background-color:#111111;
+    z-index:0 !Important;
+  }
+
+.bgColor-xgp {
+    background-color:#111111;
+    z-index:0 !Important;
+    color: #fff !important;
+  }
+  
+  .SFE-copy {
+     z-index:1 !Important;
+  }
+  
+  @media screen and (min-width:1399px){
+  .social-section .m-hero-item{
+    height:55.2vw !important;
+   }
+  }
+  
+  @media screen and (max-width:1400px) and (min-width:1084px){
+  .social-section .m-hero-item{
+    height:53.9vw !important;
+   }
+  }
+  
+  @media screen and (max-width:1084px) and (min-width:768px){
+  .social-section .m-hero-item{
+    height:53.7vw !important;
+   }
+  }
+  
+  
+  
+  
+  .m-social>ul>li>a:focus{
+      outline: #FFF dashed 2px !important;
+  }
+  
+  
+  
+  .social-section {position:relative !Important;}
+  .social-section section.m-hero-item div div h2.c-heading-1{font-weight:700 !important;}
+  .social-section .m-social >ul >li > a {height:42px !Important; width:42px !important; margin-right:17px !important; }
+  .social-section .m-social > ul { position:relative; left:50%; transform:translate(-50%, -50%);}
+  
+  
+  @media only screen and (max-width: 767px) {
+  .social-section .m-social > ul{ position:relative; left:20%; transform:translate(-37%, -30%);}
+  .iosLogo{display:inline !important; margin-right:15px !Important;}
+  
+  }
+  
+  @media only screen and (max-width:600px) {
+   .social-section .m-social > ul{ position:relative; left:22%; transform:translate(-37%, -30%);}
+  }
+  
+  @media only screen and (max-width:540px) {
+   .social-section .m-social > ul{ position:relative; left:24%; transform:translate(-50%, -30%);}
+  }
+  
+  @media only screen and (max-width:400px) {
+   .social-section .m-social > ul{ position:relative; left:26%; transform:translate(-50%, -30%);}
+  }
+  .ctaSection{margin-top:5px !Important;}
+  
+  
+  @media only screen and (min-width:768px){
+  .iosLogo{float:left !important; margin-right:23px !Important;}
+  }
+  
+  
+  @media only screen and (max-width: 767px){
+  .social-section .m-hero-item>div picture {display:inline !important;}
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+  .social-section .m-social > ul {
+      transform: translate(-37%, -30%);
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+  .social-section .m-social > ul {
+      transform: translate(-32%, -30%);
+    }
+  }
+  
+  @media only screen and (max-width: 560px) {
+  .social-section .m-social > ul {
+      transform: translate(-35%, -30%);
+    }
+  }
+  
+  @media only screen and (max-width: 540px) {
+  .social-section .m-social > ul {
+      transform: translate(-30%, -30%);
+    }
+  }
+  
+  .platformPadTop{ padding-top:10px !important;}
+  
+  @media (forced-colors: active) {
+  .threeP-hero{forced-color-adjust: none !important; padding-bottom: 1%;}
+  .threeP-hero a:focus{outline:2px dashed white !Important;}
+  .social-section a{background-color:white !Important;}
+  }
+
+
+@media screen and (-ms-high-contrast: active) {
+[class^="m-"] a:not(.c-action-trigger):focus:not(.x-hidden-focus), [class*=" m-"] a:not(.c-action-trigger):focus:not(.x-hidden-focus), [class^="c-"] a:not(.c-action-trigger):focus:not(.x-hidden-focus), [class*=" c-"] a:not(.c-action-trigger):focus:not(.x-hidden-focus) {
+    background-color: transparent !important;
+}
+
+  
+  @media screen and (-ms-high-contrast: active) {
+  social-section a:focus{background-color: transparent !Important; }
+  }
+
+  
+  @media (forced-colors: white-on-black) {
+  .heroLogos {background-color:#111111 !Important;}
+  
+  }
+  
+  
+  @media only screen and (max-width: 415px) {
+    .social-section [class*=f-x][class*=f-y].m-hero-item > div > div {
+      top: calc(75%);
+   }
+  }
+  
+  @media screen and (max-width:415px) and (min-width:321px) {
+  .m-social.f-horizontal, .c-social.f-horizontal {
+    padding-left:50px !Important;
+   }
+  }
+  
+  @media screen and (max-width:320px) {
+  .social-section .m-social > ul {
+      transform: translate(-28%, -30%);
+   }
+  }
+  
